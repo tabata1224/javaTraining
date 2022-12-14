@@ -2,7 +2,14 @@ package consallink.chapter3;
 
 public class Training3_3 {
 
-    public void practice1() {
+    public static void main(String[] args) {
+        // 実行したい練習問題のコメントアウトを外そう
+        // practice1();
+        // practice2();
+        // practice3();
+    }
+
+    public static void practice1() {
 
         /*
          * 以下の変数を作成してください。表示や演算には作成した変数を利用すること。
@@ -33,7 +40,7 @@ public class Training3_3 {
 
     }
 
-    public void practice2() {
+    public static void practice2() {
 
         /*
          * practice1のプログラムを更に改善してみましょう。
@@ -50,7 +57,7 @@ public class Training3_3 {
 
     }
 
-    public void practice3() {
+    public static void practice3() {
 
         /*
          * 自販機を模したプログラム
