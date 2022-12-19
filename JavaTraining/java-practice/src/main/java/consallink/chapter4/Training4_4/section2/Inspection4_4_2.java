@@ -3,7 +3,7 @@ package consallink.chapter4.Training4_4.section2;
 /*
  * 指示に従ってクラスを完成させてください。
  * 
- *  * フィールド
+ *  フィールド
  * 【型】int 【変数名】number 【初期値】なし
  * 
  * メソッド
