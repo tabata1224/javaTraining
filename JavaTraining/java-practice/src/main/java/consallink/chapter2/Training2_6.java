@@ -2,6 +2,12 @@ package consallink.chapter2;
 
 public class Training2_6 {
 
+    public static void main(String[] args) {
+        // 実行したい練習問題のコメントアウトを外そう
+        // practice1();
+        // practice2();
+    }
+
     public void practice1() {
 
         // 以下の変数を作成してください
