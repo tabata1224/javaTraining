@@ -70,7 +70,7 @@ public class Training3_6 {
          * 配列名：numbers
          * データ：32,79,35,25,82,77,34,16,61,39
          * 
-         * numbers配列内で偶数を検索し表示してください。
+         * numbers配列内で偶数と奇数を検索し表示してください。
          * 
          * 実行結果は以下のようにしてください。
          * 配列内の偶数は以下の数値です
@@ -122,10 +122,8 @@ public class Training3_6 {
 
     public static void practice5() {
 
-        String[][] colors = {
-                { "赤", "青", "黄", "緑", "白", "黒", "灰", "紫" },
-                { "Red", "Blue", "Yellow", "Green", "White", "Black", "Gray", "Purple" }
-        };
+        String[][] colors = {{"赤", "青", "黄", "緑", "白", "黒", "灰", "紫"},
+                {"Red", "Blue", "Yellow", "Green", "White", "Black", "Gray", "Purple"}};
 
         // 日本語の指定色
         // String specified_color = "紫";
