@@ -8,7 +8,7 @@ public class Training2_6 {
         // practice2();
     }
 
-    public void practice1() {
+    public static void practice1() {
 
         // 以下の変数を作成してください
         // 【型】String 【変数名】name 【初期値】"パソコン" 【補足】商品名
@@ -23,7 +23,7 @@ public class Training2_6 {
         System.out.println("税込み価格は" + "円です。");
     }
 
-    public void practice2() {
+    public static void practice2() {
 
         // 以下の変数を作成してください
         // 【型】char 【変数名】hiragana 【初期値】'あ'
