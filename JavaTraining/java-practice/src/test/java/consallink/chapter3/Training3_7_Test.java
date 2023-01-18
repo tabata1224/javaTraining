@@ -40,7 +40,7 @@ public class Training3_7_Test {
         Training3_7.practice3();
         sos.clearOutput();
         String actual = sos.getOutput();
-        String expected = "商品の金額は9260円です\n割引率は33%です\n引される金額は3055.8円です\n";
+        String expected = "商品の金額は9260円です\n割引率は33%です\n割引される金額は3055.8円です\n";
 
         assertEquals(actual, expected);
     }
@@ -51,7 +51,8 @@ public class Training3_7_Test {
         Training3_7.practice4();
         sos.clearOutput();
         String actual = sos.getOutput();
-        String expected = "今日は5日(土)\n商品の金額は9260円です\n5の付く日で土曜日は割引率更にアップ！！\n割引率は49%です\n割引される金額は4537.400000000001円です\n";
+        String expected =
+                "今日は5日(土)\n商品の金額は9260円です\n5の付く日で土曜日は割引率更にアップ！！\n割引率は49%です\n割引される金額は4537.4円です\n";
 
         assertEquals(actual, expected);
     }
@@ -95,7 +96,7 @@ public class Training3_7_Test {
         Training3_7.practice8();
         sos.clearOutput();
         String actual = sos.getOutput();
-        String expected = "1000 5832 35937 778688 103823\n";
+        String expected = "1000 5832 35937 778688 103823 \n";
 
         assertEquals(actual, expected);
     }

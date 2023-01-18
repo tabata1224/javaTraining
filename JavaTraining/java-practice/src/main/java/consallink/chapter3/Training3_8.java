@@ -3,7 +3,7 @@ package consallink.chapter3;
 public class Training3_8 {
 
     public static void main(String[] args) {
-        // 実行したい練習問題のコメントアウトを外そう
+        // 実行したい練習問題のメソッドを記述しよう
     }
 
     public static void practice1(int num) {
@@ -14,10 +14,10 @@ public class Training3_8 {
          * 引数が正しい場合は、その数字まで表示するループ処理を行ってください。
          * 
          * 実行結果例：引数が「5」の場合
-         * 1 2 3 4 5
+         * 1 2 3 4 5 
          * 
          * 実行結果例：引数が「10」の場合
-         * 1 2 3 4 5 6 7 8 9 10
+         * 1 2 3 4 5 6 7 8 9 10 
          * 
          * 実行結果例：引数が「-1」の場合
          * 引数には正の整数値を設定してください

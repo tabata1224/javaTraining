@@ -14,7 +14,10 @@ public class Training2_7 {
     public static void practice1() {
 
         // 以下の演算がどのような結果になるか予想してみましょう。
+        // 予想後は実行結果を確認し、間違っていた問題を質問したりして理解しましょう。
+        // 
         // 実行時エラーになる場合もあるので、エラーになってしまう行はコメントアウトしてください。
+        // 最終的にエラーになる行をコメントアウトした形で保存してください。
         System.out.println(7 / 0);
         System.out.println(0 / 7);
         System.out.println(0 / 0);

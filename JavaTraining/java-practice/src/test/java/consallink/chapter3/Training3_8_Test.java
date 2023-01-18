@@ -18,14 +18,14 @@ public class Training3_8_Test {
         Training3_8.practice1(5);
         sos.clearOutput();
         String actual = sos.getOutput();
-        String expected = "1 2 3 4 5\n";
+        String expected = "1 2 3 4 5 \n";
 
         assertEquals(actual, expected);
 
         Training3_8.practice1(10);
         sos.clearOutput();
         String actual2 = sos.getOutput();
-        String expected2 = "1 2 3 4 5 6 7 8 9 10\n";
+        String expected2 = "1 2 3 4 5 6 7 8 9 10 \n";
 
         assertEquals(actual2, expected2);
 
