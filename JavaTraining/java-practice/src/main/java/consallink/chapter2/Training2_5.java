@@ -25,7 +25,7 @@ public class Training2_5 {
         System.out.println(b);
         float c = 3 / 2;
         System.out.println(c);
-        byte d = 1;
+        //byte d = 1;
         //byte e = d + d;
         //System.out.println(e);
         //float f = 3.14;
