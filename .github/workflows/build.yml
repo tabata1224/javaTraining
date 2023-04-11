@@ -12,12 +12,11 @@ name: Java CI with Maven
 on:
   pull_request:
 
-permissions:
-  checks: write
+# permissions:
+#   checks: write
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
