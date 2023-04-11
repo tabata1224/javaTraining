@@ -18,9 +18,9 @@ public class Training2_7 {
         // 
         // 実行時エラーになる場合もあるので、エラーになってしまう行はコメントアウトしてください。
         // 最終的にエラーになる行をコメントアウトした形で保存してください。
-        System.out.println(7 / 0);
+        //System.out.println(7 / 0);
         System.out.println(0 / 7);
-        System.out.println(0 / 0);
+        //System.out.println(0 / 0);
         System.out.println(50 - 8 * 4);
         System.out.println(8 * 2 - 2);
         System.out.println(5 / 3 * 4 + 2);
@@ -38,7 +38,7 @@ public class Training2_7 {
         System.out.println(7 % 2);
         System.out.println(21 % 7);
         System.out.println(21 % 11);
-        System.out.println(21 % 0);
+        //System.out.println(21 % 0);
         System.out.println(5 % 5 + 8 * 4);
         System.out.println(7 % 4 / 3 - 1);
         System.out.println(8 + 8 * 2 % 3);

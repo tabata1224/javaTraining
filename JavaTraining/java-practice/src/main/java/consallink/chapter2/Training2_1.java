@@ -12,7 +12,7 @@ public class Training2_1 {
         // 4.boolean
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer =4 ;
 
         return answer;
     }
@@ -27,7 +27,7 @@ public class Training2_1 {
         // 4.float
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 4;
 
         return answer;
     }
@@ -42,7 +42,7 @@ public class Training2_1 {
         // 4.“a”
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 4;
 
         return answer;
     }
@@ -57,7 +57,7 @@ public class Training2_1 {
         // 4.128
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 1;
 
         return answer;
     }
@@ -71,7 +71,7 @@ public class Training2_1 {
         // 3.4.0 / 2
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 3;
 
         return answer;
     }
@@ -86,7 +86,7 @@ public class Training2_1 {
         // 4.b111
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 1;
 
         return answer;
     }
@@ -101,7 +101,7 @@ public class Training2_1 {
         // 4.x111
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 2;
 
         return answer;
     }
@@ -116,7 +116,7 @@ public class Training2_1 {
         // 4.{double}5
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 3;
 
         return answer;
     }
@@ -131,7 +131,7 @@ public class Training2_1 {
         // 4.6
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 4;
 
         return answer;
     }
@@ -147,7 +147,7 @@ public class Training2_1 {
         // 5.boolean
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 2;
 
         return answer;
     }
@@ -162,7 +162,7 @@ public class Training2_1 {
         // 4.(int)5 / 2
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 3;
 
         return answer;
     }
@@ -176,7 +176,7 @@ public class Training2_1 {
         // 3.代入時には小さい型から大きい型に型変換される
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 2;
 
         return answer;
     }
@@ -191,7 +191,7 @@ public class Training2_1 {
         // 4.char型は算術演算が可能
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 3;
 
         return answer;
     }
@@ -206,7 +206,7 @@ public class Training2_1 {
         // 4.int型からchar型へキャストで型変換できる
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 1;
 
         return answer;
     }

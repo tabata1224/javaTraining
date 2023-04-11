@@ -12,7 +12,7 @@ public class Training2_2 {
         // 4.double型の変数にもインクリメントは可能
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 2;
 
         return answer;
     }
@@ -27,7 +27,7 @@ public class Training2_2 {
         // 4.+の左辺か右辺いずれかにString型が含まれている場合は文字列連結となる
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 1;
 
         return answer;
     }
@@ -42,7 +42,7 @@ public class Training2_2 {
         // 4.char型は内部で数値を扱っているため、比較演算で比較が可能
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 1;
 
         return answer;
     }
@@ -57,7 +57,7 @@ public class Training2_2 {
         // 4.論理演算の||は左辺と右辺がどちらもtrueの時のみtrueの結果となる
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 4;
 
         return answer;
     }
@@ -72,7 +72,7 @@ public class Training2_2 {
         // 4.35 > 10 && true
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 2;
 
         return answer;
     }
@@ -87,7 +87,7 @@ public class Training2_2 {
         // 4.boolean z = x != y;
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 3;
 
         return answer;
     }
@@ -103,7 +103,7 @@ public class Training2_2 {
         // 4.10020
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 1;
 
         return answer;
     }
@@ -119,7 +119,7 @@ public class Training2_2 {
         // 4.2000
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 3;
 
         return answer;
     }
@@ -136,7 +136,7 @@ public class Training2_2 {
         // 5.30
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 2;
 
         return answer;
     }
@@ -154,7 +154,7 @@ public class Training2_2 {
         // 5.30
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 3;
 
         return answer;
     }
