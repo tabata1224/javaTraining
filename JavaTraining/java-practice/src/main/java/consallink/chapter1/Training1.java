@@ -12,7 +12,7 @@ public class Training1 {
         // 4.JDKは「Java Development Kit」の略称である
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 1;
 
         return answer;
     }
@@ -27,7 +27,7 @@ public class Training1 {
         // 4.JREは「Java Runtime Environment」を略したものです
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 2;
 
         return answer;
     }
@@ -42,7 +42,7 @@ public class Training1 {
         // 4.JVMがJavaバイトコードをその環境に応じた実行形式のコードに変換してくれる
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 3;
 
         return answer;
     }
@@ -57,7 +57,7 @@ public class Training1 {
         // 4.コンパイル時のファイル名は拡張子も記述する必要がある
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 2;
 
         return answer;
     }
@@ -72,7 +72,7 @@ public class Training1 {
         // 4.実行時のクラス名は拡張子は記述しない
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 2;
 
         return answer;
     }
@@ -87,7 +87,7 @@ public class Training1 {
         // 4.classやvoidなどは全角で入力するとエラーとなる
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 3;
 
         return answer;
     }
@@ -102,7 +102,7 @@ public class Training1 {
         // 4.System,out,println(“表示”);
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 2;
 
         return answer;
     }
@@ -117,7 +117,7 @@ public class Training1 {
         // 4.ソースコード入力->実行
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 1;
 
         return answer;
     }
@@ -132,7 +132,7 @@ public class Training1 {
         // 4.public static void main(String[] args){処理;}
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 4;
 
         return answer;
     }
