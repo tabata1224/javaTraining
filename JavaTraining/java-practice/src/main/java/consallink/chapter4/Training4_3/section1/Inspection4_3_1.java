@@ -21,10 +21,14 @@ package consallink.chapter4.Training4_3.section1;
 
 public class Inspection4_3_1 {
     // フィールド
-
+    int number;
+    String name;
     // メソッド
     void method01() {
         System.out.println("method01()が実行されました");
+    }
+    void method02(){
+        System.out.println("method02()が実行されました");
     }
 
 }

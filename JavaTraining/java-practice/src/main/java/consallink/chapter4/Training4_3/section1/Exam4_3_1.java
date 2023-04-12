@@ -23,7 +23,7 @@ public class Exam4_3_1 {
         // 一つ目のメソッド呼び出し
         inspection4_3_1.method01();
         // 二つ目のメソッド呼び出し
-
+        inspection4_3_1.method02();
     }
 
 }

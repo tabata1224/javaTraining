@@ -12,7 +12,7 @@ public class Training4_1 {
         // 4.クラス名の末尾に数字を含めるとコンパイルエラーとなる
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 3;
 
         return answer;
     }
@@ -27,7 +27,7 @@ public class Training4_1 {
         // 4.フィールドはクラスの「処理」部分を担当する
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 1;
 
         return answer;
     }
@@ -42,7 +42,7 @@ public class Training4_1 {
         // 4.メソッドの引数には型の記述は必要ない
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 3;
 
         return answer;
     }
@@ -57,7 +57,7 @@ public class Training4_1 {
         // 4.インスタンス生成時は「クラス名 = new 変数名(); 」という記述を行う
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 4;
 
         return answer;
     }

@@ -11,7 +11,7 @@ public class Training4_2 {
         // 3.インスタンス変数は宣言時、フィールドもしくはローカル変数に関係なく、自動的にnullが代入される
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 1;
 
         return answer;
     }
@@ -26,7 +26,7 @@ public class Training4_2 {
         // 4.コンストラクタを定義しなかった場合、デフォルトコンストラクタが自動的に生成される
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 4;
 
         return answer;
     }
@@ -41,7 +41,7 @@ public class Training4_2 {
         // 4.コンストラクタにはアクセス修飾子を付加できない
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 1;
 
         return answer;
     }
@@ -56,7 +56,7 @@ public class Training4_2 {
         // 4.void abc(){}
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 3;
 
         return answer;
     }
@@ -73,7 +73,7 @@ public class Training4_2 {
         // 4.オーバーロードとしてメソッドを定義する場合は、引数の型、数、型の並び、のいずれかが異なる必要がある
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 4;
 
         return answer;
     }
@@ -88,7 +88,7 @@ public class Training4_2 {
         // 4.void method()
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 3;
 
         return answer;
     }

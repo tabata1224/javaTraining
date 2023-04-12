@@ -52,10 +52,31 @@ package consallink.chapter4.Training4_3.section2;
 
 public class Inspection4_3_2 {
     // フィールド
-
+    int number;
+    String name;
     // メソッド
     void param01(int x) {
         System.out.println(x + "を受け取りました");
     }
-
+    void param02(double x) {
+        System.out.println(x + "を受け取りました");
+    }
+    void param03(String x) {
+        System.out.println(x + "を受け取りました");
+    }
+    void param04(int x, double y) {
+        System.out.println(x + "と" + y + "を受け取りました");
+    }
+    void param05(int x,int y){
+        System.out.println(x + "と" + y + "を掛け算すると" + x*y + "となります");
+    }
+    void param06(double x,double y){
+        System.out.println(x + "と" + y + "を割り算すると" + x/y + "となります");
+    }
+    void param07(int x,String y){
+        number = x;
+        name = y;
+        System.out.println("numberの値は「" + number + "」です");
+        System.out.println("nameの値は「" + name + "」です");
+    }
 }
