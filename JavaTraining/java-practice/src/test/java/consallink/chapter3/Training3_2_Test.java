@@ -51,7 +51,7 @@ public class Training3_2_Test {
 
     @Test
     public void practice7() throws Exception {
-        int expected = 2;
+        int expected = 1;
         int actual = training3_2.practice7();
         assertThat(actual, is(expected));
     }

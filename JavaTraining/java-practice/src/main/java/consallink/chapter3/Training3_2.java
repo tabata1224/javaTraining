@@ -95,7 +95,7 @@ public class Training3_2 {
     public int practice7() {
 
         // 問題7
-        // 「int[][] nums = {1,2,3,4,5};」を記述した際、nums.lengthで取得できる数値として正しいものを選んでください
+        // 「int[] nums = {1,2,3,4,5};」を記述した際、nums.lengthで取得できる数値として正しいものを選んでください
         // 1.5
         // 2.4
         // 3.3
