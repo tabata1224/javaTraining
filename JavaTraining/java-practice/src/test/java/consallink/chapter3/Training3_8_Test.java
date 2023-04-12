@@ -122,7 +122,7 @@ public class Training3_8_Test {
     @Test
     public void practice5() throws Exception {
 
-        Training3_8.practice5(30, 6);
+        Training3_8.practice5(30, 10);
         sos.clearOutput();
         String actual = sos.getOutput();
         String expected = "ツル=5,カメ=5\n";
