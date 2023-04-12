@@ -4,14 +4,14 @@ public class Training3_7 {
 
     public static void main(String[] args) {
         // 実行したい練習問題のコメントアウトを外そう
-        // practice1();
-        // practice2();
-        // practice3();
-        // practice4();
-        // practice5();
-        // practice6();
-        // practice7();
-        // practice8();
+        //practice1();
+        //practice2();
+        //practice3();
+        //practice4();
+        //practice5();
+        //practice6();
+        //practice7();
+        practice8();
     }
 
     public static void practice1() {
@@ -25,7 +25,10 @@ public class Training3_7 {
          * 実行結果は以下のようにしてください。
          * 25/2=12.5
          */
-
+        int number01 = 25;
+        int number02 = 2;
+        String operator = "/";
+        System.out.println(number01 + operator + number02 + "=" + (double)number01/number02);
     }
 
     public static void practice2() {
@@ -40,7 +43,12 @@ public class Training3_7 {
          * 消費税率は8%です
          * 税込み金額は1058円です
          */
+        int price = 980;    //金額を保存する
+        int tax_rate = 8;   //消費税率を保存する
 
+        System.out.println("商品の金額は" + price + "円です");
+        System.out.println("消費税率は" + tax_rate + "%です");
+        System.out.println("税込み金額は" + (int)(price * (1 + (tax_rate / 100.0))) + "円です");
     }
 
     public static void practice3() {
@@ -55,7 +63,12 @@ public class Training3_7 {
          * 割引率は33%です
          * 割引される金額は3055.8円です
          */
+        int price = 9260;   //消費税率を保存する
+        int discount_rate = 33; //割引率を保存する
 
+        System.out.println("商品の金額は" + price + "円です");
+        System.out.println("割引率は" + discount_rate + "%です");
+        System.out.println("割引される金額は" + price *  (discount_rate / 100.0) + "円です");
     }
 
     public static void practice4() {
@@ -82,7 +95,32 @@ public class Training3_7 {
          * 割引率は49%です
          * 割引される金額は4537.4円です
          */
+        int price = 9260;   //金額を保存する
+        int discount_rate = 33; //割引率を保存する
+        char day_of_week = '土';    //曜日を保存する
+        int day_of_month = 5;   //日を保存する
+        double discount_rate2;  //変更後の割引率
 
+        
+        System.out.println("今日は" + day_of_month + "日" + "(" + day_of_week + ")");
+        System.out.println("商品の金額は" + price + "円です");
+
+        if(day_of_week == '土' && (day_of_month  == 5 || day_of_month  == 15 || day_of_month  == 25 )){
+            System.out.println("5の付く日で土曜日は割引率更にアップ！！");
+            discount_rate2 =  Math.floor( 1.5 * discount_rate );
+            System.out.println("割引率は" + (int)discount_rate2 + "%です");
+            System.out.println("割引される金額は" + price *  ( discount_rate2 / 100.0) + "円です");
+        }
+        else if(day_of_week == '土'){
+                System.out.println(day_of_week + "曜日は割引率アップ！！");
+                discount_rate2 = Math.floor( 1.2 * discount_rate );
+                System.out.println("割引率は" + (int)discount_rate2 + "%です");
+                System.out.println("割引される金額は" + price *  (discount_rate2 / 100.0) + "円です");
+            }
+        else{
+            System.out.println("割引率は" + discount_rate + "%です");
+            System.out.println("割引される金額は" + price *  (discount_rate / 100.0) + "円です");
+        }
     }
 
     public static void practice5() {
@@ -109,7 +147,19 @@ public class Training3_7 {
          * 最終的には「operator」の値を「/」に変更して実行し、以下の結果が出る状態で保存してください。
          * 25/2=12.5
          */
-
+        String operator = "/";
+        if(operator == "/"){
+            System.out.println("25/2=" + (25/2.0));
+        }
+        else if(operator == "*"){
+            System.out.println("25*2=" + (25*2));
+        }
+        else if(operator == "+"){
+            System.out.println("25+2=" + (25+2));
+        }
+        else{
+            System.out.println("25-2=" + (25-2));
+        }
     }
 
     public static void practice6() {
@@ -135,7 +185,22 @@ public class Training3_7 {
          * 残金は1000円です
          * 残金があと少しです
          */
+        int money = 7000;   //手持ちの金額を保存する
+        int meal_price = 6000;  //食事に使用した金額
+        int balance = money - meal_price;   //残金
 
+        if(0.6 * money <= balance){
+            System.out.println("残金は" + balance +"円です");
+            System.out.println("残金には余裕があります");
+        }
+        else if(0.3 * money <= balance){
+            System.out.println("残金は" + balance +"円です");
+            System.out.println("残金が少なくなっています");
+        }
+        else{
+            System.out.println("残金は" + balance +"円です");
+            System.out.println("残金があと少しです");
+        }
     }
 
     public static void practice7() {
@@ -149,7 +214,13 @@ public class Training3_7 {
          * 実行結果は以下のようにしてください。
          * 計算結果は25684560です
          */
+        int[] numbers = {10,18,33,92,47};   //乗算に利用する数値
+        int result = 1;   //乗算結果を保存する
 
+        for(int i = 0;i < numbers.length; i++){
+            result = result * numbers[i];
+        }
+        System.out.println("計算結果は" + result + "です");
     }
 
     public static void practice8() {
@@ -163,6 +234,17 @@ public class Training3_7 {
          * 実行結果は以下のようにしてください。
          * 1000 5832 35937 778688 103823 
          */
+        int[] numbers = {10,18,33,92,47};
+        int power = 3;  //累乗する回数
+        int result;
 
+        for(int i = 0;i < numbers.length;i++){
+            result = numbers[i];
+            for(int j = 0;j < power - 1;j++){
+                result = result * numbers[i];
+            }
+            System.out.print(result + " ");
+        }
+        System.out.println();
     }
 }

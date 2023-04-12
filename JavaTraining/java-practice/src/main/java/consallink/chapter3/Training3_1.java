@@ -12,7 +12,7 @@ public class Training3_1 {
         // 4.プログラムの処理順序を入れ替えたり上書きしたりする処理を「継続処理」と呼び、breakやcontinueがある
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 4;
 
         return answer;
     }
@@ -27,7 +27,7 @@ public class Training3_1 {
         // 4.3 > 5 && 5 > 5
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 3;
 
         return answer;
     }
@@ -42,7 +42,7 @@ public class Training3_1 {
         // 4.long型
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 4;
 
         return answer;
     }
@@ -57,7 +57,7 @@ public class Training3_1 {
         // 4.ifやelse ifでの条件はboolean型の値を利用できる
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 1;
 
         return answer;
     }
@@ -72,7 +72,7 @@ public class Training3_1 {
         // 4.式にはインクリメントを記述できる【例：switch(number++)】
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 3;
 
         return answer;
     }
@@ -87,7 +87,7 @@ public class Training3_1 {
         // 4.反復処理内にはbreakやcontinueを記述できる
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 3;
 
         return answer;
     }
@@ -102,7 +102,7 @@ public class Training3_1 {
         // 4.switch文中のbreakは記述しなくてもエラーにならない
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 2;
 
         return answer;
     }
@@ -117,7 +117,7 @@ public class Training3_1 {
         // 4.for文中のcontinueに到達すると、増減式に処理が移る
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 2;
 
         return answer;
     }
@@ -132,7 +132,7 @@ public class Training3_1 {
         // 4.for(int i = 100; i > 0; i–){
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 3;
 
         return answer;
     }

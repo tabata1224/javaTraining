@@ -4,6 +4,17 @@ public class Training3_8 {
 
     public static void main(String[] args) {
         // 実行したい練習問題のメソッドを記述しよう
+        // practice1(5);
+        // practice1(10);
+        // practice1(-1);
+        // practice2(7);
+        // practice2(10);
+        // practice2(-1);
+        // practice3(10000000);
+        // practice4(16);
+        practice5(30, 10);
+        practice5(12, 3);
+        practice5(30, 8);
     }
 
     public static void practice1(int num) {
@@ -22,7 +33,15 @@ public class Training3_8 {
          * 実行結果例：引数が「-1」の場合
          * 引数には正の整数値を設定してください
          */
-
+        if(num <= 0){
+            System.out.print("引数には正の整数値を設定してください");
+        }
+        else{
+            for(int i = 1;i <= num;i++){
+                System.out.print(i + " ");
+            }
+        }
+        System.out.println();
     }
 
     /*
@@ -45,7 +64,24 @@ public class Training3_8 {
          * 実行結果例：引数が「-1」の場合
          * 引数には3以上の数値を設定してください
          */
-
+        boolean prime  = true;  //素数かどうか
+        if(num < 3){
+            System.out.println("引数には3以上の数値を設定してください");
+        }
+        else{
+            for(int i = 2;i < num;i++){
+                if(num % i == 0){
+                    prime = false;
+                    break;
+                }
+            }
+            if(prime){
+                System.out.println(num + "は素数です");
+            }
+            else{
+                System.out.println(num + "は素数ではありません");
+            }
+        }
     }
 
     public static void practice3(int num) {
@@ -63,7 +99,23 @@ public class Training3_8 {
          * 実行結果例：引数が「1234567」の場合
          * 1,234,567
          */
+        String str = String.valueOf(num);
+        StringBuilder strb = new StringBuilder(str);
+		str = strb.reverse().toString();
+        String[] strArray = str.split("");
+        String resultStr = "";
+        int count = 0;
 
+        for (String s : strArray) {
+            if(count != 0 && count % 3 == 0){
+                resultStr = resultStr + ",";
+            }
+            resultStr = resultStr +  s;
+            count++;
+        }
+        strb = new StringBuilder(resultStr);
+        resultStr = strb.reverse().toString();
+        System.out.println(resultStr);
     }
 
     public static void practice4(int num) {
@@ -81,7 +133,15 @@ public class Training3_8 {
          * 実行結果例：引数が「7」の場合
          * 111
          */
-
+        String binaryNumber = "";
+        
+        while(0 < num){
+            binaryNumber = binaryNumber + (num % 2);
+            num = num / 2;
+        } 
+        StringBuilder strb = new StringBuilder(binaryNumber);
+        binaryNumber = strb.reverse().toString();
+        System.out.println(binaryNumber);
     }
 
     public static void practice5(int foot, int num) {
@@ -105,13 +165,13 @@ public class Training3_8 {
          */
 
         // iをカメの数としてループを回す
-        // for(int i = 1; i < num; i++){
-        // int kame_foot = ①;
-        // int turu_foot = ②;
-        // if(foot == (③)){
-        // System.out.print("ツル=" + (num - i));
-        // System.out.println(",カメ=" + i);
-        // }
-        // }
+        for(int i = 1; i < num; i++){
+        int kame_foot = 4;
+        int turu_foot = 2;
+        if(foot == ((kame_foot * i) + (turu_foot * (num - i) ))){
+            System.out.print("ツル=" + (num - i));
+            System.out.println(",カメ=" + i);
+        }
+        }
     }
 }

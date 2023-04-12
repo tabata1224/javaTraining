@@ -3,11 +3,11 @@ package consallink.chapter3;
 public class Training3_6 {
     public static void main(String[] args) {
         // 実行したい練習問題のコメントアウトを外そう
-        // practice1();
-        // practice2();
-        // practice3();
-        // practice4();
-        // practice5();
+        //practice1();
+        //practice2();
+        //practice3();
+        //practice4();
+        practice5();
     }
 
     public static void practice1() {
@@ -18,6 +18,7 @@ public class Training3_6 {
          * データ型：String[]
          * 配列名：jp_week
          * データ："日","月","火","水","木","金","土"
+         * 
          * 
          * データ型：String[]
          * 配列名：en_week
@@ -35,7 +36,12 @@ public class Training3_6 {
          * 金曜日は英語ではFri.です
          * 土曜日は英語ではSat.です
          */
+        String[] jp_week = {"日","月","火","水","木","金","土"};
+        String[] en_week = {"Sun.","Mon.","Tue.","Wed.","Thu.","Fri.","Sat."};
 
+        for(int i = 0;i < jp_week.length;i++){
+            System.out.println(jp_week[i] + "曜日は英語では" + en_week[i] + "です");
+        }
     }
 
     public static void practice2() {
@@ -64,7 +70,19 @@ public class Training3_6 {
 
         // System.out.println("配列内の最も小さい数値は「" + min + "」です");
         // System.out.println("配列内の最も大きい数値は「" + max + "」です");
-
+        int[] numbers = {21,54,19,68,49,37,3,15,34,6};
+        int min = numbers[0];
+        int max = numbers[0];
+        for(int i = 0;i < numbers.length;i++){
+            if(numbers[i] < min){
+                min = numbers[i];
+            }
+            if(max < numbers[i]){
+                max = numbers[i];
+            }
+        }
+        System.out.println("配列内の最も小さい数値は「" + min + "」です");
+        System.out.println("配列内の最も大きい数値は「" + max + "」です");
     }
 
     public static void practice3() {
@@ -92,13 +110,23 @@ public class Training3_6 {
          * 61
          * 39
          */
+        int[] numbers = {32,79,35,25,82,77,34,16,61,39};
 
         System.out.println("配列内の偶数は以下の数値です");
         // 偶数を表示する処理
+        for(int i= 0;i < numbers.length;i++){
+            if(numbers[i] % 2 == 0){
+                System.out.println(numbers[i]);
+            }
+        }
 
         System.out.println("配列内の奇数は以下の数値です");
         // 奇数を表示する処理
-
+        for(int i= 0;i < numbers.length;i++){
+            if(numbers[i] % 2 != 0){
+                System.out.println(numbers[i]);
+            }
+        }
     }
 
     public static void practice4() {
@@ -123,16 +151,13 @@ public class Training3_6 {
          * 金曜日は英語ではFri.です
          * 土曜日は英語ではSat.です
          */
-
+        String[][] week = {{"日","月","火","水","木","金","土"},{"Sun.","Mon.","Tue.","Wed.","Thu.","Fri.","Sat."}};
+        for(int i = 0;i < 7;i++){
+            System.out.println(week[0][i] + "曜日は英語では" + week[1][i] + "です");
+        }
     }
 
     public static void practice5() {
-
-        String[][] colors = {{"赤", "青", "黄", "緑", "白", "黒", "灰", "紫"},
-                {"Red", "Blue", "Yellow", "Green", "White", "Black", "Gray", "Purple"}};
-
-        // 日本語の指定色
-        // String specified_color = "紫";
 
         /*
          * 以下のプログラムを完成させてください。
@@ -145,11 +170,18 @@ public class Training3_6 {
          * 実行結果は以下のようにしてください。
          * Purple
          */
+        
+        String[][] colors = {{"赤", "青", "黄", "緑", "白", "黒", "灰", "紫"},
+                {"Red", "Blue", "Yellow", "Green", "White", "Black", "Gray", "Purple"}};
 
-        for (int i = 0; i < colors[0].length; i++) {
-
+        // 日本語の指定色
+        int colorNumber;
+        String specified_color = "紫";
+        for(colorNumber = 0; colorNumber < colors[0].length; colorNumber++){
+            if(specified_color == colors[0][colorNumber]){
+                break;
+            }
         }
-
+        System.out.println(colors[1][colorNumber]);
     }
-
 }

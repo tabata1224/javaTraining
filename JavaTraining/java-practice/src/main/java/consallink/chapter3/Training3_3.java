@@ -4,9 +4,9 @@ public class Training3_3 {
 
     public static void main(String[] args) {
         // 実行したい練習問題のコメントアウトを外そう
-        // practice1();
-        // practice2();
-        // practice3();
+        //practice1();
+        //practice2();
+        practice3();
     }
 
     public static void practice1() {
@@ -19,17 +19,22 @@ public class Training3_3 {
          * 【型】double 【変数名】average_score 【初期値】国語の点数と数学の点数の平均値
          */
 
+         String student_name = "田中";
+         int japanese_score = 85;
+         int mathematical_score = 66;
+         double average_score = (japanese_score + mathematical_score) / 2.0;
+
         // 国語の点数を表示して下さい
         // 出力結果指示：「田中さんの国語の点数は85点です。」
-        System.out.println();
+        System.out.println(student_name + "さんの国語の点数は" + japanese_score + "点です。");
 
         // 数学の点数を表示して下さい
         // 出力結果指示：「田中さんの数学の点数は66点です。」
-        System.out.println();
+        System.out.println(student_name + "さんの数学の点数は" + mathematical_score + "点です。");
 
         // 国語と数学の平均点を表示して下さい
         // 出力結果指示：「田中さんの平均点は75.5点です。」
-        System.out.println();
+        System.out.println(student_name + "さんの平均点は" + average_score + "点です。");
 
         /*
          * 以下のifを作成して下さい
@@ -37,7 +42,12 @@ public class Training3_3 {
          * 平均点が65点以上の場合、「合格です。」と表示
          * 平均点が65点に満たないの場合、「不合格です。」と表示
          */
-
+         if(65 <= average_score){
+            System.out.println("合格です。");
+         }
+         else{
+            System.out.println("不合格です。");
+         }
     }
 
     public static void practice2() {
@@ -55,6 +65,29 @@ public class Training3_3 {
          * 指示2：国語と数学の平均点を任意で変更し、全ての結果が表示されることを確認してください。
          */
 
+        String student_name = "田中";
+        int japanese_score = 85;
+        int mathematical_score = 66;
+        double average_score = (japanese_score + mathematical_score) / 2.0;
+
+        System.out.println(student_name + "さんの国語の点数は" + japanese_score + "点です。");
+
+        System.out.println(student_name + "さんの数学の点数は" + mathematical_score + "点です。");
+
+        System.out.println(student_name + "さんの平均点は" + average_score + "点です。");
+
+         if(80 <= average_score){
+            System.out.println("高得点！おめでとう。");
+         }
+         else if(65 <= average_score){
+            System.out.println("もう少しで高得点。");
+         }
+         else if(35 <= average_score){
+            System.out.println("もう少し頑張りましょう。");
+         }
+         else{
+            System.out.println("追試です。");
+         }
     }
 
     public static void practice3() {
@@ -67,9 +100,40 @@ public class Training3_3 {
          */
 
         // 投入金額
-        int entry_amount = 90;
+        int entry_amount = 1000;
+        int medal_500;  //500円玉   
+        int medal_100;  //100円玉
+        int medal_50;   //50円玉
+        int medal_10;    //10円玉
+    
         System.out.println("投入金額は" + entry_amount + "円です");
 
+        if(entry_amount == 160){
+            System.out.println("ドリンクが購入できました【お釣りなし】");
+        }
+        else if(160 < entry_amount){
+            entry_amount = entry_amount - 160;
+            System.out.println("ドリンクが購入できました【お釣りあり】");
+
+            medal_500 = entry_amount / 500;
+            entry_amount = entry_amount - 500*medal_500;
+            System.out.println("500円：" + medal_500 + "枚");
+
+            medal_100 = entry_amount / 100;
+            entry_amount = entry_amount - 100*medal_100;
+            System.out.println("100円：" + medal_100 + "枚");
+            
+            medal_50 = entry_amount / 50;
+            entry_amount = entry_amount - 50*medal_50;
+            System.out.println("50円：" + medal_50 + "枚");
+            
+            medal_10 = entry_amount / 10;
+            entry_amount = entry_amount - 10*medal_10;
+            System.out.println("10円：" + medal_10 + "枚");
+        }
+        else{
+            System.out.println("金額が足りません");
+        }
         /*
          * 条件分岐を利用して以下を表示してください。
          * 投入金額が160円の場合、表示内容「ドリンクが購入できました【お釣りなし】」
@@ -84,6 +148,5 @@ public class Training3_3 {
          * 
          * プログラムを作成後、投入金額を任意で変更し、全ての結果が表示されることを確認してください。
          */
-
     }
 }

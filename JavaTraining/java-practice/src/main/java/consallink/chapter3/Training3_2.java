@@ -12,7 +12,7 @@ public class Training3_2 {
         // 4.main()メソッドを「main(int[] args)」と変更すると、コンパイルエラーは起こらないが、実行時にエラーとなる
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 2;
 
         return answer;
     }
@@ -27,7 +27,7 @@ public class Training3_2 {
         // 4.System.out.println(args[3]);
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 4;
 
         return answer;
     }
@@ -42,7 +42,7 @@ public class Training3_2 {
         // 4.配列のインデックスは0からスタートする
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 1;
 
         return answer;
     }
@@ -57,7 +57,7 @@ public class Training3_2 {
         // 4.3
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 4;
 
         return answer;
     }
@@ -72,7 +72,7 @@ public class Training3_2 {
         // 4.str[3]
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 3;
 
         return answer;
     }
@@ -87,7 +87,7 @@ public class Training3_2 {
         // 4.{{1,2,3,4,5}}
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 2;
 
         return answer;
     }
@@ -102,7 +102,7 @@ public class Training3_2 {
         // 4.2
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 1;
 
         return answer;
     }
@@ -117,7 +117,7 @@ public class Training3_2 {
         // 4.2
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 4;
 
         return answer;
     }
@@ -133,7 +133,7 @@ public class Training3_2 {
         // 4.10
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 4;
 
         return answer;
     }
@@ -148,7 +148,7 @@ public class Training3_2 {
         // 4.4.4
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 1;
 
         return answer;
     }
@@ -163,7 +163,7 @@ public class Training3_2 {
         // 4.Double.parseDouble("7.7")
 
         // 変数answerに答えの選択肢の数値を代入しよう！
-        int answer = 0;
+        int answer = 4;
 
         return answer;
     }
