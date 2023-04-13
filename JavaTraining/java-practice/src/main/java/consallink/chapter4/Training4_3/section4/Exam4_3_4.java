@@ -21,12 +21,13 @@ public class Exam4_3_4 {
          */
 
         // インスタンス生成
-
+        Inspection4_3_4 inspection4_3_4 = new Inspection4_3_4();
         // 一つ目のメソッド呼び出し（引数：10.84, 5.2）
-
+        System.out.println(inspection4_3_4.divi(10.84, 5.2));
         // 二つ目のメソッド呼び出し（引数："Java", "java"）
-
+        System.out.println(inspection4_3_4.check("Java", "java"));
         // 三つ目のメソッド呼び出し（引数：int型配列{5,2,3,8,1,9,3,3,5}）
-
+        int[] array = {5, 2, 3, 8, 1, 9, 3, 3, 5};
+        System.out.println(inspection4_3_4.sum(array));
     }
 }

@@ -18,7 +18,7 @@ public class Exam4_3_1 {
          * method02()が実行されました
          */
 
-        // インスタンス生成
+        // インスタンス生成.
         Inspection4_3_1 inspection4_3_1 = new Inspection4_3_1();
         // 一つ目のメソッド呼び出し
         inspection4_3_1.method01();

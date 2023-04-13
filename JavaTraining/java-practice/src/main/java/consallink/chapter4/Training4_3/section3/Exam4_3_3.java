@@ -30,16 +30,16 @@ public class Exam4_3_3 {
         // 一つ目のメソッド呼び出し
         System.out.println(inspection4_3_3.re01());
         // 二つ目のメソッド呼び出し
-
+        System.out.println(inspection4_3_3.re02());
         // 三つ目のメソッド呼び出し
-
+        System.out.println(inspection4_3_3.re03());
         // 四つ目のメソッド呼び出し
-
+        System.out.println(inspection4_3_3.re04());
         // 五つ目のメソッド呼び出し
-
+        System.out.println(inspection4_3_3.re05());
         // 六つ目のメソッド呼び出し
-
+        System.out.println(inspection4_3_3.re06());
         // 七つ目のメソッド呼び出し（戻ってきた配列の4番目の値を表示）
-
+        System.out.println(inspection4_3_3.re07()[3]);
     }
 }

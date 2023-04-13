@@ -39,8 +39,7 @@ public class Exam4_3_2 {
         // 六つ目のメソッド呼び出し（引数：5.2, 4.3）
         inspection4_3_2.param06(5.2, 4.3);
         // 七つ目のメソッド呼び出し（引数：199, "言語"）
-        inspection4_3_2.param07(199, "言語"
-        );
+        inspection4_3_2.param07(199, "言語");
     }
 
 }
