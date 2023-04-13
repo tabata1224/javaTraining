@@ -4,9 +4,9 @@ public class Training3_5 {
 
     public static void main(String[] args) {
         // 実行したい練習問題のコメントアウトを外そう
-        //practice1();
-        //practice2();
-        //practice3();
+        practice1();
+        practice2();
+        practice3();
         practice4();
     }
 
@@ -30,7 +30,7 @@ public class Training3_5 {
          */
         for (int i = 1; i <= 10; i++) {
             for (int j = 1; j <= 10; j++) {
-                System.out.print(i*j + " ");
+                System.out.print(i * j + " ");
             }
             System.out.println();
         }
@@ -46,10 +46,9 @@ public class Training3_5 {
          * ■▲■▲■▲■▲■▲
          */
         for (int i = 1; i <= 10; i++) {
-            if(i % 2 != 0){
+            if (i % 2 != 0) {
                 System.out.print("■");
-            }
-            else{
+            } else {
                 System.out.print("▲");
             }
         }
@@ -67,8 +66,8 @@ public class Training3_5 {
          * ■■■■
          * ■■■■■
          */
-        for(int i = 1;i <= 5;i++){
-            for(int j = 1;j <= i;j++){
+        for (int i = 1; i <= 5; i++) {
+            for (int j = 1; j <= i; j++) {
                 System.out.print("■");
             }
             System.out.println();
@@ -86,8 +85,8 @@ public class Training3_5 {
          * ■■
          * ■
          */
-        for(int i = 5;1 <= i;i--){
-            for(int j = 1;j <= i;j++){
+        for (int i = 5; 1 <= i; i--) {
+            for (int j = 1; j <= i; j++) {
                 System.out.print("■");
             }
             System.out.println();
