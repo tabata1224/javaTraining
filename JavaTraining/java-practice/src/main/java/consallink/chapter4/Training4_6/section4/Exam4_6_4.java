@@ -20,7 +20,11 @@ public class Exam4_6_4 {
          * 1 2 3 4 5 6 7 8 9 10
          * 配列の最後は15です
          */
-
+        Inspection4_6_4 inspection4_6_4 = new Inspection4_6_4();
+        inspection4_6_4.print();
+        Inspection4_6_4 inspection4_6_4_2 = new Inspection4_6_4(6);
+        int[] array = inspection4_6_4_2.getNumbers();
+        System.out.println("配列の最後は" + array[array.length - 1] + "です");
     }
 
 }

@@ -14,7 +14,10 @@ public class Human implements ICharacter {
      * speed: 16
      */
     Human() {
-
+        this.name = "ななし";
+        this.type = "人間";
+        this.job = "なし";
+        this.speed = 16;
     }
 
     /*
@@ -36,6 +39,20 @@ public class Human implements ICharacter {
      * 【メソッド名】getType
      * 【処理内容】typeフィールドをreturnする
      */
+    @Override
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    @Override
+    public String getName() {
+        return this.name;
+    }
+
+    @Override
+    public String getType() {
+        return this.type;
+    }
 
     @Override
     public void speedCorrection(int value) {
@@ -47,9 +64,9 @@ public class Human implements ICharacter {
     @Override
     public void printStatus() {
         System.out.println("タイプ：" + type);
-        System.out.println("名前：" + name);
-        System.out.println("職業" + job);
-        System.out.println("走る速度：" + speed + "km/h");
+        System.out.println("名前：" + name + "さん");
+        System.out.println("職業：" + job);
+        System.out.println("速度：" + speed + "km/h");
     }
 
     public void setJob(String job) {

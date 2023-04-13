@@ -17,6 +17,9 @@ public class Exam4_6_1 {
          * 実行結果は以下のようにしてください。
          * 飛ぶことを練習中です
          */
+        Inspection4_6_1 inspection4_6_1 = new Inspection4_6_1();
+        inspection4_6_1.setAction("飛ぶ");
+        inspection4_6_1.act();
 
     }
 

@@ -30,7 +30,11 @@ public class Exam4_8_1 {
          * 職業：陸上選手
          * 速度：28km/h
          */
-
+        Human suzuki = new Human();
+        suzuki.setName("鈴木");
+        suzuki.setJob("陸上選手");
+        suzuki.speedCorrection(8);
+        suzuki.printStatus();
     }
 
 }

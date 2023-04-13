@@ -26,7 +26,15 @@ public class Exam4_6_3 {
          * 5 6 7 8 9 10
          * setNumbers(int a, int b)の引数はa < bとなるように設定してください
          */
+        Inspection4_6_3 inspection4_6_3 = new Inspection4_6_3();
+        inspection4_6_3.setNumbers(1);
+        inspection4_6_3.print();
 
+        Inspection4_6_3 inspection4_6_3_2 = new Inspection4_6_3();
+        inspection4_6_3_2.setNumbers(5,10);
+        inspection4_6_3_2.print();
+    
+        Inspection4_6_3 inspection4_6_3_3 = new Inspection4_6_3();
+        inspection4_6_3_3.setNumbers(10,5);
     }
-
 }

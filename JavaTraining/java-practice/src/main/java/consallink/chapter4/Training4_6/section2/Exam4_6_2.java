@@ -18,7 +18,8 @@ public class Exam4_6_2 {
          * そのアクションは現在設定できません
          * 現在アクションは設定されていません
          */
-
+        Inspection4_6_2 inspection4_6_2 = new Inspection4_6_2();
+        inspection4_6_2.setAction("しゃがむ");
+        inspection4_6_2.act();
     }
-
 }
