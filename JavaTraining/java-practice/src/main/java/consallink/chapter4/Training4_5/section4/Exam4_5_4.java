@@ -18,6 +18,12 @@ public class Exam4_5_4 {
          * 実行結果は以下のようにしてください。
          * 現在のカウントは2です
          */
+        Inspection4_5_4 inspection4_5_4 = new Inspection4_5_4();
+        inspection4_5_4.countUp();
+        inspection4_5_4.countUp();
+        inspection4_5_4.countUp();
+        inspection4_5_4.countDown();
+        inspection4_5_4.print();
 
     }
 

@@ -16,7 +16,8 @@ public class Exam4_5_1 {
          * 実行結果は以下のようにしてください。
          * 加藤は30番です
          */
-
+        Inspection4_5_1 inspection4_5_1 = new Inspection4_5_1();
+        inspection4_5_1.print();
     }
 
 }

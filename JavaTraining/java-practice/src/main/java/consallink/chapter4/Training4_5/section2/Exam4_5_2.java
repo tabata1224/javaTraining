@@ -20,7 +20,10 @@ public class Exam4_5_2 {
          * 0.9を受け取りました
          * 文字列を受け取りました
          */
-
+        Inspection4_5_2 inspection4_5_2 = new Inspection4_5_2();
+        inspection4_5_2.param01(10);
+        inspection4_5_2.param02(0.9);
+        inspection4_5_2.param03("文字列");
     }
 
 }

@@ -22,7 +22,11 @@ public class Exam4_4_2 {
          * 503
          * 504
          */
-
+        Inspection4_4_2 inspection4_4_2 = new Inspection4_4_2();
+        inspection4_4_2.number = 500;
+        for (int i = 0; i < 5; i++) {
+            inspection4_4_2.printNumber();
+        }
     }
 
 }

@@ -20,7 +20,10 @@ public class Exam4_5_3 {
          * 19.572
          * program
          */
-
+        Inspection4_5_3 inspection4_5_3 = new Inspection4_5_3();
+        System.out.println(inspection4_5_3.re01());
+        System.out.println(inspection4_5_3.re02());
+        System.out.println(inspection4_5_3.re03());
     }
 
 }

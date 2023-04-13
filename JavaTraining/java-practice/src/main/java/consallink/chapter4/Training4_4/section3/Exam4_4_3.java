@@ -8,8 +8,8 @@ public class Exam4_4_3 {
 
     public static void execute() {
 
-        // double height = 1.71;
-        // double weight = 65.5;
+        double height = 1.71;
+        double weight = 65.5;
 
         /*
          * 以下のプログラミングを記述してください
@@ -27,6 +27,13 @@ public class Exam4_4_3 {
          * 体重は65.5kgです
          * BMI値は22.400054717690917です
          */
+        Inspection4_4_3 inspection4_4_3 = new Inspection4_4_3();
+        double bmi =
+                inspection4_4_3.division(weight, inspection4_4_3.multiplication(height, height));
+        System.out.println("身長は" + height + "mです");
+        System.out.println("体重は" + weight + "kgです");
+        System.out.println("BMI値は" + bmi + "です");
+
 
     }
 

@@ -18,7 +18,9 @@ public class Exam4_4_1 {
          * メソッドが実行されました
          * numberには100が保存されています
          */
-
+        Inspection4_4_1 inspection4_4_1 = new Inspection4_4_1();
+        inspection4_4_1.number = 100;
+        inspection4_4_1.method();
     }
 
 }

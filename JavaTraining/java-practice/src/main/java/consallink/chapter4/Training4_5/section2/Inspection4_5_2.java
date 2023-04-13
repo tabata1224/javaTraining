@@ -23,5 +23,13 @@ package consallink.chapter4.Training4_5.section2;
  */
 
 public class Inspection4_5_2 {
-
+    public void param01(int x){
+        System.out.println(x + "を受け取りました");
+    }
+    public void param02(double x){
+        System.out.println(x + "を受け取りました");
+    }
+    public void param03(String x){
+        System.out.println(x + "を受け取りました");
+    }
 }

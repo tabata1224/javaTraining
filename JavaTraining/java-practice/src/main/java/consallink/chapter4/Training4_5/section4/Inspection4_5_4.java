@@ -14,7 +14,7 @@ package consallink.chapter4.Training4_5.section4;
  * 【引数】なし
  * 【処理内容】countフィールドをインクリメントする
  * 
- * 【メソッド名】countDown
+ * 【メソッド名】countDowns
  * 【戻り値】void
  * 【引数】なし
  * 【処理内容】countフィールドをデクリメントする
@@ -26,5 +26,15 @@ package consallink.chapter4.Training4_5.section4;
  */
 
 public class Inspection4_5_4 {
+    int count;
 
+    public void countUp(){
+        count++;
+    }
+    public void countDown(){
+        count--;
+    }
+    public void print(){
+        System.out.println("現在のカウントは" + count + "です");
+    }
 }
