@@ -111,7 +111,7 @@ public class Training3_7 {
             System.out.println("割引率は" + (int) discount_rate2 + "%です");
             System.out.println("割引される金額は" + price * (discount_rate2 / 100.0) + "円です");
         } else if (day_of_week == '土') {
-            System.out.println("土曜日は割引率アップ！！");
+            System.out.println("土曜日は割引率アップ！");
             discount_rate2 = Math.floor(1.2 * discount_rate);
             System.out.println("割引率は" + (int) discount_rate2 + "%です");
             System.out.println("割引される金額は" + price * (discount_rate2 / 100.0) + "円です");

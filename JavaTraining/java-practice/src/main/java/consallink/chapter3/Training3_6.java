@@ -181,12 +181,7 @@ public class Training3_6 {
             if (specified_color == colors[0][colorNumber]) {
                 System.out.println(colors[1][colorNumber]);
                 break;
-                // String specified_color = "紫";
-                // for (colorNumber = 0; colorNumber < colors[0].length; colorNumber++) {
-                //     if (specified_color == colors[0][colorNumber]) {
-                //         break;
             }
         }
-        //System.out.println(colors[1][colorNumber]);
     }
 }
