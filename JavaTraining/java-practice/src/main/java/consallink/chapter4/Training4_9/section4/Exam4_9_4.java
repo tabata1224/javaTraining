@@ -20,6 +20,14 @@ public class Exam4_9_4 {
          * 8.インスタンスには引数（name）の値をセットしてください
          * 9.セットされたデータを表示してください
          */
+        Dog dog = new Dog(name, type, color);
+        dog.info();
+
+        Dog dog2 = new Dog(name, type);
+        dog2.info();
+
+        Dog dog3 = new Dog(name);
+        dog3.info();
 
     }
 }

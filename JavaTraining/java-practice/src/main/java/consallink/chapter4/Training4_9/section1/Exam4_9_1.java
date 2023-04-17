@@ -3,7 +3,7 @@ package consallink.chapter4.Training4_9.section1;
 public class Exam4_9_1 {
 
     public static void main(String[] args) {
-        execute("太郎", "雑種", "茶");
+        execute("太郎", "ブルドッグ", "緑");
     }
 
     public static void execute(String name, String type, String color) {
@@ -14,7 +14,12 @@ public class Exam4_9_1 {
          * 2.インスタンスには引数（name, type, color）の値をセットしてください
          * 3.セットされたデータを表示してください
          */
+        Dog dog = new Dog();
+        dog.setName(name);
+        dog.setType(type);
+        dog.setColor(color);
 
+        dog.info();
     }
 
 }

@@ -2,7 +2,7 @@ package consallink.chapter4.Training4_9.section2;
 
 public class Exam4_9_2 {
     public static void main(String[] args) {
-        execute("ita", false);
+        execute("hoge", false);
     }
 
     public static void execute(String country, boolean isKana) {
@@ -27,6 +27,8 @@ public class Exam4_9_2 {
          * 該当なし
          */
 
+        ThanksConverter thanksConverter = new ThanksConverter();
+        System.out.println(country + "のありがとう");
+        System.out.println(thanksConverter.convert(country, isKana));
     }
-
 }

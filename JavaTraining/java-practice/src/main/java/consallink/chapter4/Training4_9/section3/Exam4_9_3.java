@@ -15,6 +15,8 @@ public class Exam4_9_3 {
          * 2.インスタンスには引数（name, type, color）の値をセットしてください
          * 3.セットされたデータを表示してください
          */
+        Dog dog = new Dog(name, type, color);
+        dog.info();
 
     }
 
