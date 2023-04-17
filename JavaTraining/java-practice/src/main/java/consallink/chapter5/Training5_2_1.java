@@ -1,10 +1,12 @@
 package consallink.chapter5;
 
+import java.util.ArrayList;
+
 public class Training5_2_1 {
     public static void main(String[] args) {
         // 実行したい練習問題のコメントアウトを外そう
-        // practice1();
-        // practice2();
+        practice1();
+        practice2();
     }
 
     public static void practice1() {
@@ -21,6 +23,37 @@ public class Training5_2_1 {
          * 配列内の最も小さい数値は「3」です
          * 配列内の最も大きい数値は「68」です
          */
+        int[] array = {21, 54, 19, 68, 49, 37, 3, 15, 34, 6};
+
+        ArrayList<Integer> list = new ArrayList<Integer>();
+
+        for (int i = 0; i < array.length; i++) {
+            list.add(array[i]);
+        }
+
+        StringBuilder maxStr = new StringBuilder();
+        StringBuilder minStr = new StringBuilder();
+
+        int max = list.get(0);
+        int min = list.get(0);
+
+        for (int i = 1; i < array.length; i++) {
+            if (max < list.get(i)) {
+                max = list.get(i);
+            }
+            if (list.get(i) < min) {
+                min = list.get(i);
+            }
+        }
+        minStr.append("配列内の最も小さい数値は「");
+        minStr.append(min);
+        minStr.append("」です");
+        maxStr.append("配列内の最も大きい数値は「");
+        maxStr.append(max);
+        maxStr.append("」です");
+
+        System.out.println(minStr);
+        System.out.println(maxStr);
 
     }
 
@@ -47,6 +80,25 @@ public class Training5_2_1 {
          * 61
          * 39
          */
+        int[] array = {32, 79, 35, 25, 82, 77, 34, 16, 61, 39};
+
+        ArrayList<Integer> list = new ArrayList<Integer>();
+        for (int i = 0; i < array.length; i++) {
+            list.add(array[i]);
+        }
+        System.out.println("配列内の偶数は以下の数値です");
+        for (int i = 0; i < array.length; i++) {
+            if (list.get(i) % 2 == 0) {
+                System.out.println(list.get(i));
+            }
+        }
+        System.out.println("配列内の奇数は以下の数値です");
+        for (int i = 0; i < array.length; i++) {
+            if (list.get(i) % 2 != 0) {
+                System.out.println(list.get(i));
+            }
+        }
+
 
     }
 
