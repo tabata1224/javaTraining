@@ -23,23 +23,23 @@ public class Exam4_10_2 {
          * 魔法防御:9
          */
 
-        /*
-         * Hero2 hero = new Hero2();
-         * Weapon sword = new Weapon("剣",5);
-         * hero.weaponEquip(sword);
-         * 
-         * hero.levelUp();
-         * hero.levelUp();
-         * System.out.println("名前:" + hero.getName());
-         * System.out.println("職業:" + hero.getType());
-         * System.out.println("レベル:" + hero.getStatus(0));
-         * System.out.println("HP:" + hero.getStatus(1));
-         * System.out.println("MP:" + hero.getStatus(2));
-         * System.out.println("攻撃:" + hero.getStatus(3));
-         * System.out.println("魔法威力:" + hero.getStatus(4));
-         * System.out.println("防御:" + hero.getStatus(5));
-         * System.out.println("魔法防御:" + hero.getStatus(6));
-         */
+
+        Hero2 hero = new Hero2();
+        Weapon sword = new Weapon("剣", 5);
+        hero.weaponEquip(sword);
+
+        hero.levelUp();
+        hero.levelUp();
+        System.out.println("名前:" + hero.getName());
+        System.out.println("職業:" + hero.getType());
+        System.out.println("レベル:" + hero.getStatus(0));
+        System.out.println("HP:" + hero.getStatus(1));
+        System.out.println("MP:" + hero.getStatus(2));
+        System.out.println("攻撃:" + hero.getStatus(3));
+        System.out.println("魔法威力:" + hero.getStatus(4));
+        System.out.println("防御:" + hero.getStatus(5));
+        System.out.println("魔法防御:" + hero.getStatus(6));
+
 
     }
 

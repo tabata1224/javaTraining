@@ -26,6 +26,23 @@ package consallink.chapter4.Training4_10.section1;
  * levelは+1、hpは+3、mpは+0、attackは+3、m_attackは+0、defenseは+2、m_defenseは+1
  */
 
-public class Warrior {
+public class Warrior extends BattleCharacter{
+    Warrior(String name, int level, int hp, int mp, int attack, int m_attack, int defense, int m_defense){
+        super(name, level, hp, mp, attack, m_attack, defense, m_defense, "戦士");
+    }
 
+    Warrior(){
+        super("せん つよし", 1, 15, 0, 12, 0, 10, 5,"戦士");
+    }
+
+    public void levelUp() {
+        super.setStatus(0, getStatus(0) + 1);
+        super.setStatus(1, getStatus(1) + 3);
+        super.setStatus(2, getStatus(2) + 0);
+        super.setStatus(3, getStatus(3) + 3);
+        super.setStatus(4, getStatus(4) + 0);
+        super.setStatus(5, getStatus(5) + 2);
+        super.setStatus(6, getStatus(6) + 1);
+
+    }
 }

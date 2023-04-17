@@ -1,5 +1,6 @@
 package consallink.chapter4.Training4_10.section1;
 
+
 /*
  * 指示に従ってクラスを完成させてください。
  * 
@@ -26,6 +27,26 @@ package consallink.chapter4.Training4_10.section1;
  * levelは+1、hpは+2、mpは+1、attackは+2、m_attackは+1、defenseは+1、m_defenseは+1
  */
 
-public class Hero {
+public class Hero extends BattleCharacter {
 
+    Hero(String name, int level, int hp, int mp, int attack, int m_attack, int defense,
+            int m_defense) {
+        super(name, level, hp, mp, attack, m_attack, defense, m_defense, "勇者");
+    }
+
+    Hero() {
+        super("ななし ひろ", 1, 10, 8, 10, 8, 8, 7,"勇者");
+
+    }
+
+    public void levelUp() {
+        super.setStatus(0, getStatus(0) + 1);
+        super.setStatus(1, getStatus(1) + 2);
+        super.setStatus(2, getStatus(2) + 1);
+        super.setStatus(3, getStatus(3) + 2);
+        super.setStatus(4, getStatus(4) + 1);
+        super.setStatus(5, getStatus(5) + 1);
+        super.setStatus(6, getStatus(6) + 1);
+
+    }
 }
