@@ -28,11 +28,11 @@ public class Exam4_4_3 {
          * BMI値は22.400054717690917です
          */
         Inspection4_4_3 inspection4_4_3 = new Inspection4_4_3();
-        double bmi =
-                inspection4_4_3.division(weight, inspection4_4_3.multiplication(height, height));
         System.out.println("身長は" + height + "mです");
         System.out.println("体重は" + weight + "kgです");
-        System.out.println("BMI値は" + bmi + "です");
+        System.out.println("BMI値は"
+                + inspection4_4_3.division(weight, inspection4_4_3.multiplication(height, height))
+                + "です");
 
 
     }
