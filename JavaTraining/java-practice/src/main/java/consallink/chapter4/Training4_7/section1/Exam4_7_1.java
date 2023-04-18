@@ -22,7 +22,7 @@ public class Exam4_7_1 {
          * 2件ヒットしました
          * 0番目にありました
          */
-        String[] array = {"営業","システム","人事","総務","管理","営業"};
+        String[] array = {"営業", "システム", "人事", "総務", "管理", "営業"};
         Inspection4_7_1 inspection4_7_1 = new Inspection4_7_1();
         int count = inspection4_7_1.search(array, 0, data);
         System.out.println(count + "件ヒットしました");
@@ -30,7 +30,7 @@ public class Exam4_7_1 {
         SuperInspection4_7_1 superInspection4_7_1 = new SuperInspection4_7_1();
         int number = superInspection4_7_1.search(array, 0, data);
         System.out.println(number + "番目にありました");
-        }
-
-
     }
+
+
+}
