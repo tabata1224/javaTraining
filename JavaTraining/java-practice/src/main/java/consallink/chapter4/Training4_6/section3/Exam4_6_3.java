@@ -31,10 +31,10 @@ public class Exam4_6_3 {
         inspection4_6_3.print();
 
         Inspection4_6_3 inspection4_6_3_2 = new Inspection4_6_3();
-        inspection4_6_3_2.setNumbers(5,10);
+        inspection4_6_3_2.setNumbers(5, 10);
         inspection4_6_3_2.print();
-    
+
         Inspection4_6_3 inspection4_6_3_3 = new Inspection4_6_3();
-        inspection4_6_3_3.setNumbers(10,5);
+        inspection4_6_3_3.setNumbers(10, 5);
     }
 }

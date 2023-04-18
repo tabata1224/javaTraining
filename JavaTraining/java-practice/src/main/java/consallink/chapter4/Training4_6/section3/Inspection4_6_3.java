@@ -30,16 +30,16 @@ public class Inspection4_6_3 {
         } else {
             numbers = new int[b - a + 1];
             for (int i = 0; i < numbers.length; i++) {
-                numbers[i] = a+i;
+                numbers[i] = a + i;
             }
         }
     }
 
     public void print() {
         System.out.println("現在配列には以下の数値が保存されています");
-        for (int i = 0;i < numbers.length ;i++) {
+        for (int i = 0; i < numbers.length; i++) {
             System.out.print(numbers[i]);
-            if(i != numbers.length - 1){
+            if (i != numbers.length - 1) {
                 System.out.print(" ");
             }
         }
