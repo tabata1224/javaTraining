@@ -146,11 +146,11 @@ public class Training3_7 {
          * 25/2=12.5
          */
         String operator = "/";
-        if (operator == "/") {
+        if ("/".equals(operator)) {
             System.out.println("25/2=" + (25 / 2.0));
-        } else if (operator == "*") {
+        } else if ("*".equals(operator)) {
             System.out.println("25*2=" + (25 * 2));
-        } else if (operator == "+") {
+        } else if ("+".equals(operator)) {
             System.out.println("25+2=" + (25 + 2));
         } else {
             System.out.println("25-2=" + (25 - 2));
