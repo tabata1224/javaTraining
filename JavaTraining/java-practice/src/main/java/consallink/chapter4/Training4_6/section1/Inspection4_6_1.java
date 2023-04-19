@@ -17,7 +17,7 @@ public class Inspection4_6_1 {
     private String action;
 
     public void setAction(String a) {
-        if (a == "飛ぶ" || a == "走る" || a == "歩く" || a == "しゃべる") {
+        if ("飛ぶ".equals(a) || "走る".equals(a) || "歩く".equals(a) || "しゃべる".equals(a)) {
             action = a;
         } else {
             System.out.println("そのアクションは現在設定できません");
