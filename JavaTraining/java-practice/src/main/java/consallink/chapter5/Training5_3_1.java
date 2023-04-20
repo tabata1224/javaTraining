@@ -35,14 +35,13 @@ public class Training5_3_1 {
 
         Collections.sort(list);
 
-        for (int i = 0; i < array.length; i++) {
-            if (i == array.length - 1) {
-                System.out.print(list.get(i));
+        for (int i = 0; i < list.size(); i++) {
+            if (i == list.size() - 1) {
+                System.out.println(list.get(i));
             } else {
                 System.out.print(list.get(i) + " ");
             }
         }
-        System.out.println();
     }
 
     public static void practice2() {

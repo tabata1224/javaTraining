@@ -31,13 +31,12 @@ public class Training5_2_1 {
             list.add(array[i]);
         }
 
-        StringBuilder maxStr = new StringBuilder();
-        StringBuilder minStr = new StringBuilder();
+        StringBuilder numStr = new StringBuilder();
 
         int max = list.get(0);
         int min = list.get(0);
 
-        for (int i = 1; i < array.length; i++) {
+        for (int i = 1; i < list.size(); i++) {
             if (max < list.get(i)) {
                 max = list.get(i);
             }
@@ -45,15 +44,14 @@ public class Training5_2_1 {
                 min = list.get(i);
             }
         }
-        minStr.append("配列内の最も小さい数値は「");
-        minStr.append(min);
-        minStr.append("」です");
-        maxStr.append("配列内の最も大きい数値は「");
-        maxStr.append(max);
-        maxStr.append("」です");
+        numStr.append("配列内の最も小さい数値は「");
+        numStr.append(min);
+        numStr.append("」です\n");
+        numStr.append("配列内の最も大きい数値は「");
+        numStr.append(max);
+        numStr.append("」です\n");
 
-        System.out.println(minStr);
-        System.out.println(maxStr);
+        System.out.print(numStr);
 
     }
 
@@ -87,13 +85,13 @@ public class Training5_2_1 {
             list.add(array[i]);
         }
         System.out.println("配列内の偶数は以下の数値です");
-        for (int i = 0; i < array.length; i++) {
+        for (int i = 0; i < list.size(); i++) {
             if (list.get(i) % 2 == 0) {
                 System.out.println(list.get(i));
             }
         }
         System.out.println("配列内の奇数は以下の数値です");
-        for (int i = 0; i < array.length; i++) {
+        for (int i = 0; i < list.size(); i++) {
             if (list.get(i) % 2 != 0) {
                 System.out.println(list.get(i));
             }

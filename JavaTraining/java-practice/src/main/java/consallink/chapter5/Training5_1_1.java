@@ -52,8 +52,7 @@ public class Training5_1_1 {
             val.append(key);
             val.append("曜日は英語では");
             val.append(map.get(key));
-            val.append("です");
-            val.append("\n");
+            val.append("です\n");
         }
 
         System.out.print(val);
