@@ -27,26 +27,20 @@ public class ThanksConverter {
     private int cursor;
 
     public String convert(String country) {
-        for (cursor = 0; cursor < countries.length; cursor++) {
-            if (country == countries[cursor]) {
-                return thanks_data[cursor];
-            }
-        }
-        return "該当なし";
+        return convert(country, false);
     }
 
     public String convert(String country, boolean isKana) {
         for (cursor = 0; cursor < countries.length; cursor++) {
-            if (country == countries[cursor]) {
-                if (isKana == false) {
-                    return thanks_data[cursor];
-                } else {
+            if (country.equals(countries[cursor])) {
+                if (isKana) {
                     return kana_data[cursor];
+                } else {
+                    return thanks_data[cursor];
                 }
             }
         }
         return "該当なし";
-
     }
 }
 

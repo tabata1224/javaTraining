@@ -40,13 +40,14 @@ public class Dog {
 
     Dog(String name, String type, String color) {
         this.name = name;
-        if (type == "プードル" || type == "チワワ" || type == "プレーリードッグ" || type == "ブルドッグ") {
+        if ("プードル".equals(type) || "チワワ".equals(type) || "プレーリードッグ".equals(type)
+                || "ブルドッグ".equals(type)) {
             this.type = type;
         } else {
             this.type = "雑種";
         }
 
-        if (color == "白" || color == "黒" || color == "茶") {
+        if ("白".equals(color) || "黒".equals(color)) {
             this.color = color;
         } else {
             this.color = "茶";
