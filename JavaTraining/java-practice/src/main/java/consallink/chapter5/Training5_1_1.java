@@ -54,7 +54,6 @@ public class Training5_1_1 {
             val.append(map.get(key));
             val.append("です\n");
         }
-
         System.out.print(val);
     }
 
@@ -87,7 +86,5 @@ public class Training5_1_1 {
         map.put("紫", "Purple");
 
         return map.get(specified_color) + "\n";
-
     }
-
 }
