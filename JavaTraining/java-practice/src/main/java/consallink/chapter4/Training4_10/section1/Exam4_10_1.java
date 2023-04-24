@@ -33,10 +33,8 @@ public class Exam4_10_1 {
          * 魔法防御:6
          */
 
-
         Hero hero = new Hero();
         Warrior warrior01 = new Warrior();
-
 
         hero.levelUp();
         hero.levelUp();
@@ -62,8 +60,5 @@ public class Exam4_10_1 {
         System.out.println("魔法威力:" + warrior01.getStatus(4));
         System.out.println("防御:" + warrior01.getStatus(5));
         System.out.println("魔法防御:" + warrior01.getStatus(6));
-
-
     }
-
 }

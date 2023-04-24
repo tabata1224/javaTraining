@@ -24,7 +24,7 @@ public class Warrior extends BattleCharacter {
     }
 
     Warrior() {
-        super("せん つよし", 1, 15, 0, 12, 0, 10, 5, "戦士");
+        this("せん つよし", 1, 15, 0, 12, 0, 10, 5);
     }
 
     public void levelUp() {

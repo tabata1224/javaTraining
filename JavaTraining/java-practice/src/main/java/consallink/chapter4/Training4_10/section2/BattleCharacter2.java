@@ -13,12 +13,12 @@ package consallink.chapter4.Training4_10.section2;
  * 【アクセス修飾子】public 【メソッド名】weaponEquip 【戻り値】void 【引数】Weapon w 【処理内容】 引数で取得したWeaponインスタンスをフィールドに格納します。
  * また、WeaponインスタンスのgetPower()メソッドを利用して、attackフィールドに攻撃力をプラスします。
  * 
- * 【アクセス修飾子】public 【メソッド名】weaponRemove 【戻り値】void 【引数】Weapon w 【処理内容】
+ * 【アクセス修飾子】public 【メソッド名】weaponRemove 【戻り値】void 【引数】なし 【処理内容】
  * WeaponインスタンスのgetPower()メソッドを利用して、attackフィールドから攻撃力をマイナスする。
  * また、フィールドweaponのインスタンスはnullを代入することで、装備解除とします。
  */
 
-public class BattleCharacter2 {
+public class BattleCharacter2 implements Equippable {
     private Weapon weapon;
 
     private String name;
@@ -65,38 +65,47 @@ public class BattleCharacter2 {
     }
 
     public void setStatus(int num, int value) {
-        if (num == 0) {
-            this.level = value;
-        } else if (num == 1) {
-            this.hp = value;
-        } else if (num == 2) {
-            this.mp = value;
-        } else if (num == 3) {
-            this.attack = value;
-        } else if (num == 4) {
-            this.m_attack = value;
-        } else if (num == 5) {
-            this.defense = value;
-        } else {
-            this.m_defense = value;
+        switch (num) {
+            case 0:
+                this.level = value;
+                break;
+            case 1:
+                this.hp = value;
+                break;
+            case 2:
+                this.mp = value;
+                break;
+            case 3:
+                this.attack = value;
+                break;
+            case 4:
+                this.m_attack = value;
+                break;
+            case 5:
+                this.defense = value;
+                break;
+            case 6:
+                this.m_defense = value;
+                break;
         }
     }
 
     public int getStatus(int num) {
-        if (num == 0) {
-            return this.level;
-        } else if (num == 1) {
-            return this.hp;
-        } else if (num == 2) {
-            return this.mp;
-        } else if (num == 3) {
-            return this.attack;
-        } else if (num == 4) {
-            return this.m_attack;
-        } else if (num == 5) {
-            return this.defense;
-        } else {
-            return this.m_defense;
+        switch (num) {
+            case 0:
+                return this.level;
+            case 1:
+                return this.hp;
+            case 2:
+                return this.mp;
+            case 3:
+                return this.attack;
+            case 4:
+                return this.m_attack;
+            case 5:
+                return this.defense;
+            default:
+                return this.m_defense;
         }
     }
 
@@ -105,8 +114,8 @@ public class BattleCharacter2 {
         this.attack += w.getPower();
     }
 
-    public void weaponRemove(Weapon w) {
+    public void weaponRemove() {
+        this.attack -= this.weapon.getPower();
         this.weapon = null;
-        this.attack -= w.getPower();
     }
 }

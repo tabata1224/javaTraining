@@ -1,6 +1,5 @@
 package consallink.chapter4.Training4_10.section1;
 
-
 /*
  * 指示に従ってクラスを完成させてください。
  * 
@@ -72,38 +71,47 @@ public class BattleCharacter {
     }
 
     public void setStatus(int num, int value) {
-        if (num == 0) {
-            this.level = value;
-        } else if (num == 1) {
-            this.hp = value;
-        } else if (num == 2) {
-            this.mp = value;
-        } else if (num == 3) {
-            this.attack = value;
-        } else if (num == 4) {
-            this.m_attack = value;
-        } else if (num == 5) {
-            this.defense = value;
-        } else {
-            this.m_defense = value;
+        switch (num) {
+            case 0:
+                this.level = value;
+                break;
+            case 1:
+                this.hp = value;
+                break;
+            case 2:
+                this.mp = value;
+                break;
+            case 3:
+                this.attack = value;
+                break;
+            case 4:
+                this.m_attack = value;
+                break;
+            case 5:
+                this.defense = value;
+                break;
+            case 6:
+                this.m_defense = value;
+                break;
         }
     }
 
     public int getStatus(int num) {
-        if (num == 0) {
-            return this.level;
-        } else if (num == 1) {
-            return this.hp;
-        } else if (num == 2) {
-            return this.mp;
-        } else if (num == 3) {
-            return this.attack;
-        } else if (num == 4) {
-            return this.m_attack;
-        } else if (num == 5) {
-            return this.defense;
-        } else {
-            return this.m_defense;
+        switch (num) {
+            case 0:
+                return this.level;
+            case 1:
+                return this.hp;
+            case 2:
+                return this.mp;
+            case 3:
+                return this.attack;
+            case 4:
+                return this.m_attack;
+            case 5:
+                return this.defense;
+            default:
+                return this.m_defense;
         }
     }
 }

@@ -26,8 +26,7 @@ public class Hero extends BattleCharacter {
     }
 
     Hero() {
-        super("ななし ひろ", 1, 10, 8, 10, 8, 8, 7, "勇者");
-
+        this("ななし ひろ", 1, 10, 8, 10, 8, 8, 7);
     }
 
     public void levelUp() {
@@ -38,6 +37,5 @@ public class Hero extends BattleCharacter {
         super.setStatus(4, getStatus(4) + 1);
         super.setStatus(5, getStatus(5) + 1);
         super.setStatus(6, getStatus(6) + 1);
-
     }
 }
