@@ -14,7 +14,7 @@ public class SuperInspection4_7_1 {
     public int search(String[] array, int start, String data) {
         int answer = -1;
         for (int i = start; i < array.length; i++) {
-            if (array[i] == data) {
+            if (array[i].equals(data)) {
                 answer = i;
                 break;
             }

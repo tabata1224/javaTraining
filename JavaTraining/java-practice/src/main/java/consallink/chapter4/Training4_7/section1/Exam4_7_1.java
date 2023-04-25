@@ -1,13 +1,11 @@
 package consallink.chapter4.Training4_7.section1;
 
 public class Exam4_7_1 {
-
     public static void main(String[] args) {
         execute("営業");
     }
 
     public static void execute(String data) {
-
         /*
          * 以下のプログラミングを記述してください
          * 1.String配列「array」を宣言し、{"営業","システム","人事","総務","管理","営業"}の値で初期値を設定してください

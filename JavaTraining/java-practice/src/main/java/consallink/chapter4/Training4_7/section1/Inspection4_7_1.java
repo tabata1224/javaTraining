@@ -16,7 +16,7 @@ public class Inspection4_7_1 extends SuperInspection4_7_1 {
     public int search(String[] array, int start, String data) {
         int count = 0;
         for (int i = start; i < array.length; i++) {
-            if (array[i] == data) {
+            if (array[i].equals(data)) {
                 count++;
             }
         }

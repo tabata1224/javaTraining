@@ -1,13 +1,11 @@
 package consallink.chapter4.Training4_7.section2;
 
 public class Exam4_7_2 {
-
     public static void main(String[] args) {
         execute();
     }
 
     public static void execute() {
-
         /*
          * 以下のプログラミングを記述してください
          * 1.30%の確率を10回まで繰り返したときの確率を表示します
@@ -42,7 +40,5 @@ public class Exam4_7_2 {
             System.out.println(number + "%で" + i + "回抽選すると");
             System.out.println("当たる確率は[" + result + "]%です");
         }
-
     }
-
 }
