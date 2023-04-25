@@ -15,7 +15,6 @@ package consallink.chapter4.Training4_8.section1;
  * 
  * 【修飾子】public abstract 【メソッド名】printStatus 【戻り値】void 【引数】なし 【処理内容】抽象メソッドのためなし
  */
-
 public interface ICharacter {
     public abstract void speedCorrection(int value);
 
@@ -26,6 +25,4 @@ public interface ICharacter {
     public abstract String getName();
 
     public abstract String getType();
-
-
 }

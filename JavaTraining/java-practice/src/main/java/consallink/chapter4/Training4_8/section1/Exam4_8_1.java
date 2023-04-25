@@ -1,17 +1,14 @@
 package consallink.chapter4.Training4_8.section1;
 
 public class Exam4_8_1 {
-
     public static void main(String[] args) {
         execute();
     }
 
     public static void execute() {
-
         Human nanashi = new Human();
         nanashi.speedCorrection(0);
         nanashi.printStatus();
-
         /*
          * 以下のプログラミングを記述してください
          * 1.Humanクラスからインスタンスを生成してください
@@ -36,5 +33,4 @@ public class Exam4_8_1 {
         suzuki.speedCorrection(8);
         suzuki.printStatus();
     }
-
 }
