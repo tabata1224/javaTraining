@@ -6,8 +6,6 @@ public class FixedCoupon implements Coupon {
     FixedCoupon(int discountAmount) {
         this.discountAmount = discountAmount;
     }
-
-
     public int discount(int amount) {
         return amount - discountAmount;
     }
