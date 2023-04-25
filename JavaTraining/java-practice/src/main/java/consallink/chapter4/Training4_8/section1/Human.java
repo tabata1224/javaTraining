@@ -56,7 +56,7 @@ public class Human implements ICharacter {
 
     @Override
     public void speedCorrection(int value) {
-        if (value >= -5 && value <= 10) {
+        if (-5 <= value && value <= 10) {
             speed = (int) (speed * (1 + (0.1 * value)));
         }
     }
