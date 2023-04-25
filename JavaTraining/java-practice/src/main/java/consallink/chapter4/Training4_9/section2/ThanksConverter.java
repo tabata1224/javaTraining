@@ -43,4 +43,3 @@ public class ThanksConverter {
         return "該当なし";
     }
 }
-
