@@ -21,5 +21,4 @@ public class Exam4_9_1 {
 
         dog.info();
     }
-
 }

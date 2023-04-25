@@ -17,7 +17,5 @@ public class Exam4_9_3 {
          */
         Dog dog = new Dog(name, type, color);
         dog.info();
-
     }
-
 }

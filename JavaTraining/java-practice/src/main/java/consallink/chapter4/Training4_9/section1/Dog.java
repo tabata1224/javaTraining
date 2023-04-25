@@ -39,12 +39,11 @@ public class Dog {
     }
 
     public void setColor(String color) {
-        if ("白".equals(color) || "黒".equals(color) || "茶".equals(color)) {
+        if ("白".equals(color) || "黒".equals(color)) {
             this.color = color;
         } else {
             this.color = "茶";
         }
-
     }
 
     public void info() {
@@ -52,5 +51,4 @@ public class Dog {
         System.out.println("犬種は" + type + "です。");
         System.out.println("色は" + color + "です。");
     }
-
 }
