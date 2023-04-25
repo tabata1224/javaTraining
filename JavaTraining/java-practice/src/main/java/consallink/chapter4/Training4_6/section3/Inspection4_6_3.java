@@ -25,7 +25,7 @@ public class Inspection4_6_3 {
     }
 
     public void setNumbers(int a, int b) {
-        if (a >= b) {
+        if (b <= a) {
             System.out.println("setNumbers(int a, int b)の引数はa < bとなるように設定してください");
         } else {
             numbers = new int[b - a + 1];
