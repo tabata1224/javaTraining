@@ -71,8 +71,5 @@ public class Training5_3_1 {
             }
         }
         System.out.println();
-
-
-
     }
 }

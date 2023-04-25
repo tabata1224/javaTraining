@@ -96,8 +96,5 @@ public class Training5_2_1 {
                 System.out.println(list.get(i));
             }
         }
-
-
     }
-
 }
