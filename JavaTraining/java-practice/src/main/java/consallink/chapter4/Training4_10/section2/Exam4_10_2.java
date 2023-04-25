@@ -1,13 +1,11 @@
 package consallink.chapter4.Training4_10.section2;
 
 public class Exam4_10_2 {
-
     public static void main(String[] args) {
         execute();
     }
 
     public static void execute() {
-
         /*
          * 他クラスを実装し、下記処理のコメントを外して実行してください。
          * 
@@ -26,7 +24,6 @@ public class Exam4_10_2 {
         Hero2 hero = new Hero2();
         Weapon sword = new Weapon("剣", 5);
         hero.weaponEquip(sword);
-
         hero.levelUp();
         hero.levelUp();
         System.out.println("名前:" + hero.getName());

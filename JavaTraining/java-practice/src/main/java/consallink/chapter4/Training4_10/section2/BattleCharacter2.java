@@ -20,7 +20,6 @@ package consallink.chapter4.Training4_10.section2;
 
 public class BattleCharacter2 implements Equippable {
     private Weapon weapon;
-
     private String name;
     private int level;
     private int hp;

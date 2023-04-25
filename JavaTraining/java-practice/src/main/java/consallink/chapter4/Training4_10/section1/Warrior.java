@@ -35,6 +35,5 @@ public class Warrior extends BattleCharacter {
         super.setStatus(4, getStatus(4) + 0);
         super.setStatus(5, getStatus(5) + 2);
         super.setStatus(6, getStatus(6) + 1);
-
     }
 }

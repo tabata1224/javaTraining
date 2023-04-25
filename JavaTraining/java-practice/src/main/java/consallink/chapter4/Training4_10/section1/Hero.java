@@ -17,7 +17,6 @@ package consallink.chapter4.Training4_10.section1;
  */
 
 public class Hero extends BattleCharacter {
-
     Hero(String name, int level, int hp, int mp, int attack, int m_attack, int defense,
             int m_defense) {
         super(name, level, hp, mp, attack, m_attack, defense, m_defense, "勇者");

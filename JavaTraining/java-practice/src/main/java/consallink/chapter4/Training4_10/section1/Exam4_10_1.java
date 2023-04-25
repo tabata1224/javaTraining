@@ -1,13 +1,11 @@
 package consallink.chapter4.Training4_10.section1;
 
 public class Exam4_10_1 {
-
     public static void main(String[] args) {
         execute();
     }
 
     public static void execute() {
-
         /*
          * 他クラスを実装し、下記処理のコメントを外して実行してください。
          * 
