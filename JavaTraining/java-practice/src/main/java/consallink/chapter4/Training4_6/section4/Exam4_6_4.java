@@ -1,13 +1,11 @@
 package consallink.chapter4.Training4_6.section4;
 
 public class Exam4_6_4 {
-
     public static void main(String[] args) {
         execute();
     }
 
     public static void execute() {
-
         /*
          * 以下のプログラミングを記述してください
          * 1.Inspection4_6_4クラスからインスタンスを生成してください
