@@ -23,7 +23,6 @@ public class Exam4_10_2 {
          * 魔法防御:9
          */
 
-
         Hero2 hero = new Hero2();
         Weapon sword = new Weapon("剣", 5);
         hero.weaponEquip(sword);
@@ -39,8 +38,5 @@ public class Exam4_10_2 {
         System.out.println("魔法威力:" + hero.getStatus(4));
         System.out.println("防御:" + hero.getStatus(5));
         System.out.println("魔法防御:" + hero.getStatus(6));
-
-
     }
-
 }

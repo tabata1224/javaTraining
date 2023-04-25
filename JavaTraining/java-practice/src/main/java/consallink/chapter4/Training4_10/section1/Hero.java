@@ -1,6 +1,4 @@
 package consallink.chapter4.Training4_10.section1;
-
-
 /*
  * 指示に従ってクラスを完成させてください。
  * 
