@@ -31,6 +31,4 @@ public class Exam4_7_1 {
         int number = superInspection4_7_1.search(array, 0, data);
         System.out.println(number + "番目にありました");
     }
-
-
 }
