@@ -26,5 +26,4 @@ public class Exam4_6_4 {
         int[] array = inspection4_6_4_2.getNumbers();
         System.out.println("配列の最後は" + array[array.length - 1] + "です");
     }
-
 }

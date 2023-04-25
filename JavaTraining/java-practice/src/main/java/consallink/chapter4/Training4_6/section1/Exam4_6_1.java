@@ -20,7 +20,5 @@ public class Exam4_6_1 {
         Inspection4_6_1 inspection4_6_1 = new Inspection4_6_1();
         inspection4_6_1.setAction("飛ぶ");
         inspection4_6_1.act();
-
     }
-
 }
