@@ -1,13 +1,11 @@
 package consallink.chapter4.Training4_9.section1;
 
 public class Exam4_9_1 {
-
     public static void main(String[] args) {
         execute("太郎", "ブルドッグ", "緑");
     }
 
     public static void execute(String name, String type, String color) {
-
         /*
          * 以下のプログラミングを記述してください
          * 1.Dogクラスからインスタンスを生成してください
@@ -18,7 +16,6 @@ public class Exam4_9_1 {
         dog.setName(name);
         dog.setType(type);
         dog.setColor(color);
-
         dog.info();
     }
 }

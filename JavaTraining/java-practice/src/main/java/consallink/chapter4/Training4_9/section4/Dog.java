@@ -59,5 +59,4 @@ public class Dog {
         System.out.println("犬種は" + type + "です。");
         System.out.println("色は" + color + "です。");
     }
-
 }

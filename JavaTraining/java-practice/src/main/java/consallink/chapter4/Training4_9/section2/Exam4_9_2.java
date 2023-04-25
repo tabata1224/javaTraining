@@ -6,7 +6,6 @@ public class Exam4_9_2 {
     }
 
     public static void execute(String country, boolean isKana) {
-
         /*
          * 以下のプログラミングを記述してください
          * 1.ThanksConverterクラスからインスタンスを生成してください
@@ -26,7 +25,6 @@ public class Exam4_9_2 {
          * hogeのありがとう
          * 該当なし
          */
-
         ThanksConverter thanksConverter = new ThanksConverter();
         System.out.println(country + "のありがとう");
         System.out.println(thanksConverter.convert(country, isKana));
