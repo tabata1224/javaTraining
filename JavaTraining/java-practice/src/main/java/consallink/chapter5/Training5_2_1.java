@@ -10,7 +10,6 @@ public class Training5_2_1 {
     }
 
     public static void practice1() {
-
         /*
          * 以下のListを作成してください。
          * 
@@ -50,13 +49,10 @@ public class Training5_2_1 {
         numStr.append("配列内の最も大きい数値は「");
         numStr.append(max);
         numStr.append("」です\n");
-
         System.out.print(numStr);
-
     }
 
     public static void practice2() {
-
         /*
          * 以下のListを作成してください。
          * 

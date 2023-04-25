@@ -11,7 +11,6 @@ public class Training5_1_1 {
     }
 
     public static void practice1() {
-
         /*
          * 以下のMapを作成してください。
          * 
@@ -58,7 +57,6 @@ public class Training5_1_1 {
     }
 
     public static String practice2(String specified_color) {
-
         /*
         * 以下のMapを作成してください。
         * 

@@ -1,7 +1,6 @@
 package consallink.chapter5;
 
 import java.util.ArrayList;
-
 import java.util.Collections;
 
 public class Training5_3_1 {
@@ -12,7 +11,6 @@ public class Training5_3_1 {
     }
 
     public static void practice1() {
-
         /*
         * 以下のListを作成してください。
         * 
@@ -45,7 +43,6 @@ public class Training5_3_1 {
     }
 
     public static void practice2() {
-
         /*
         * 以下のように実行すると線形合同法を用いて疑似乱数を表示するプログラムを作成してください。
         * 
