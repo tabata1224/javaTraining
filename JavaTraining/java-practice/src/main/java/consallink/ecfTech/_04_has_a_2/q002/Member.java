@@ -1,6 +1,5 @@
 package consallink.ecfTech._04_has_a_2.q002;
 
-
 public class Member {
     String name;
     Coupon coupon;

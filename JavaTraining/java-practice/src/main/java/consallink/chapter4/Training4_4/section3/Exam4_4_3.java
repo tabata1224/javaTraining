@@ -34,7 +34,6 @@ public class Exam4_4_3 {
                 + inspection4_4_3.division(weight, inspection4_4_3.multiplication(height, height))
                 + "です");
 
-
     }
 
 }

@@ -101,7 +101,6 @@ public class Training3_7 {
         int day_of_month = 5; //日を保存する
         double discount_rate2 = 0.0; //変更後の割引率
 
-
         System.out.println("今日は" + day_of_month + "日" + "(" + day_of_week + ")");
         System.out.println("商品の金額は" + price + "円です");
 

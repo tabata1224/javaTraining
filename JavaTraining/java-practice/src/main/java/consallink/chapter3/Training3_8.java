@@ -145,7 +145,6 @@ public class Training3_8 {
         System.out.println(binaryNumber);
     }
 
-
     public static void practice5(int foot, int num) {
 
         /*
