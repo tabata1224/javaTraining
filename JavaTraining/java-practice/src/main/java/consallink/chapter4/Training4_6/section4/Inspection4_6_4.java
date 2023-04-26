@@ -20,10 +20,7 @@ public class Inspection4_6_4 {
     private int[] numbers;
 
     public Inspection4_6_4() {
-        numbers = new int[10];
-        for (int i = 0; i < numbers.length; i++) {
-            numbers[i] = i + 1;
-        }
+        this(1);
     }
 
     public Inspection4_6_4(int n) {
