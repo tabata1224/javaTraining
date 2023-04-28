@@ -8,7 +8,6 @@ public class Main {
         Menu drink = new Menu("オレンジジュース", 100);
         //セットメニューを生成
         SetMenu burgerset = new SetMenu("ハンバーガーセット", sandwitch, drink);
-
         //セットメニューを表示
         burgerset.display();
     }
