@@ -8,6 +8,5 @@ public class Main {
         //変数taroの持つメソッドattackを呼び出す。
         //引数はgoblinとする。
         taro.attack(goblin);
-
     }
 }
