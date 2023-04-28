@@ -9,5 +9,4 @@ public class Armor extends Item {
         System.out.println(name + "を身に着けた");
         System.out.println("守備力が" + value + "上がった");
     }
-
 }

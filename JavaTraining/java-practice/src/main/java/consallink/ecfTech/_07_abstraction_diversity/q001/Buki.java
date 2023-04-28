@@ -9,5 +9,4 @@ public class Buki extends Item {
         System.out.println(name + "でこうげき!!");
         System.out.println("敵に" + value + "のダメージ!");
     }
-
 }
