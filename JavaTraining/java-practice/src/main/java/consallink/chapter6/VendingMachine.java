@@ -79,7 +79,7 @@ public class VendingMachine {
     private boolean display() {
         if (sumMoney < minPrice) {
             // 買えないときの表示処理
-            if (sumMoney == 0) {
+            if (sumMoney <= 0) {
                 print("お金を入れてないから何も買えない");
             } else {
                 print("買える飲料が無いので" + sumMoney + "円返金");
