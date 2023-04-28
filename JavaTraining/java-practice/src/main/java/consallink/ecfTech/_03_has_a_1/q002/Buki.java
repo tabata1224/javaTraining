@@ -8,5 +8,4 @@ public class Buki {
         this.name = name;
         this.atk = atk;
     }
-    
 }
