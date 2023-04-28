@@ -8,5 +8,4 @@ public class SeniorMember extends Member {
     public int getMonthlyFee() {
         return (int) (super.getMonthlyFee() * 0.7);
     }
-
 }

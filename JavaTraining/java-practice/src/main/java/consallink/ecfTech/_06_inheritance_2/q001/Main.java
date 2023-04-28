@@ -9,5 +9,4 @@ public class Main {
         System.out.println("半径8cmの円の面積は" + cylinder.getArea() + "平方cmです。");
         System.out.println("半径8cm、高さ8cmの円柱の体積は" + cylinder.getVolume() + "立方cmです。");
     }
-
 }
