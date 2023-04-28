@@ -7,8 +7,8 @@ public class AlarmClock extends Clock {
         super(time);
     }
 
-    public void alarm(){
-        if(time == alarmTime){
+    public void alarm() {
+        if (time == alarmTime) {
             System.out.println("アラームが鳴りました!");
         }
     }
@@ -16,5 +16,4 @@ public class AlarmClock extends Clock {
     public void setAlarm(String time) {
         this.alarmTime = time;
     }
-
 }
