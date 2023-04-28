@@ -5,22 +5,21 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-
-        Drink[] drinkStock = new Drink[5];
+        List<Drink> drinkStock = new ArrayList<Drink>();
 
         try {
             File file = new File(
                     "/workspaces/Java-training/JavaTraining/java-practice/src/main/java/consallink/chapter6/drink.txt");
             BufferedReader br = new BufferedReader(new FileReader(file));
             String str = null;
-            int n = 0;
             while ((str = br.readLine()) != null) {
                 String[] nums = str.split(" ");
-                drinkStock[n] = new Drink(nums[0], Integer.parseInt(nums[1]));
-                n++;
+                drinkStock.add(new Drink(nums[0], Integer.parseInt(nums[1])));
             }
             br.close();
         } catch (FileNotFoundException e) {

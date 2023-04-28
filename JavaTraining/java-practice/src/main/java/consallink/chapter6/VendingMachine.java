@@ -1,15 +1,16 @@
 package consallink.chapter6;
 
+import java.util.List;
 import java.util.Scanner;
 
 public class VendingMachine {
     private int sumMoney = 0; //投入した金額
     private String scanDrink; //入力されたドリンクの番号
-    private Drink[] drinkStock;//飲料をストックする
+    private List<Drink> drinkStock;//飲料をストックする
     private int minPrice; //一番安い飲料の値段
 
     //コンストラクタ
-    VendingMachine(Drink[] drinkStock) {
+    VendingMachine(List<Drink> drinkStock) {
         this.drinkStock = drinkStock;
     }
 
@@ -38,10 +39,10 @@ public class VendingMachine {
 
     //一番安い飲料の値段を見つける
     private void findMinPrice() {
-        minPrice = drinkStock[0].price;
-        for (int i = 1; i < drinkStock.length; i++) {
-            if (drinkStock[i].price < minPrice) {
-                minPrice = drinkStock[i].price;
+        minPrice = drinkStock.get(0).price;
+        for (int i = 1; i < drinkStock.size(); i++) {
+            if (drinkStock.get(i).price < minPrice) {
+                minPrice = drinkStock.get(i).price;
             }
         }
     }
@@ -89,10 +90,10 @@ public class VendingMachine {
         }
         //買えるときの表示処理
         print("買える飲料");
-        for (int i = 0; i < drinkStock.length; i++) {
-            if (drinkStock[i].price <= sumMoney) {
-                printItem(drinkStock[i], i);
-                drinkStock[i].isBuy = true;
+        for (int i = 0; i < drinkStock.size(); i++) {
+            if (drinkStock.get(i).price <= sumMoney) {
+                printItem(drinkStock.get(i), i);
+                drinkStock.get(i).isBuy = true;
             }
         }
         return true;
@@ -108,10 +109,10 @@ public class VendingMachine {
         }
         try {
             int chooseNumber = Integer.parseInt(scanDrink) - 1;
-            if (0 <= chooseNumber && chooseNumber < drinkStock.length
-                    && drinkStock[chooseNumber].isBuy) {
-                print(drinkStock[chooseNumber].name + "を買った");
-                sumMoney -= drinkStock[chooseNumber].price;
+            if (0 <= chooseNumber && chooseNumber < drinkStock.size()
+                    && drinkStock.get(chooseNumber).isBuy) {
+                print(drinkStock.get(chooseNumber).name + "を買った");
+                sumMoney -= drinkStock.get(chooseNumber).price;
                 return;
             }
             print("その番号の飲料は無い");
