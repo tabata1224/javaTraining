@@ -16,18 +16,13 @@ public class VendingMachine {
     //自販機メソッド
     public void start() {
         Scanner sc = new Scanner(System.in);
-
         findMinPrice();
-
         receiptMoney(sc);
-
         boolean canBuy = display();
         if (canBuy) {
             buyDrink(sc);
         }
-
         dischargeChange();
-
         sc.close();
     }
 
@@ -61,6 +56,7 @@ public class VendingMachine {
             print("----------------------------------------------------------------");
             print("投入金額:" + sumMoney + "円");
         } catch (NumberFormatException e) {
+            print("----------------------------------------------------------------");
             print("数字を入力して");
             receiptMoney(sc);
             return;
@@ -82,7 +78,7 @@ public class VendingMachine {
     //購入可能な飲料を表示
     private boolean display() {
         if (sumMoney < minPrice) {
-            // 買えない時の表示処理
+            // 買えないときの表示処理
             if (sumMoney == 0) {
                 print("お金を入れてないから何も買えない");
             } else {
@@ -91,6 +87,7 @@ public class VendingMachine {
             }
             return false;
         }
+        //買えるときの表示処理
         print("買える飲料");
         for (int i = 0; i < drinkStock.length; i++) {
             if (drinkStock[i].price <= sumMoney) {
@@ -111,14 +108,13 @@ public class VendingMachine {
         }
         try {
             int chooseNumber = Integer.parseInt(scanDrink) - 1;
-            if (chooseNumber < 0 || drinkStock.length <= chooseNumber
-                    || !drinkStock[chooseNumber].isBuy) {
-                print("その番号の飲料は無い");
-            } else if ((drinkStock[chooseNumber].isBuy)) {
+            if (0 <= chooseNumber && chooseNumber < drinkStock.length
+                    && drinkStock[chooseNumber].isBuy) {
                 print(drinkStock[chooseNumber].name + "を買った");
                 sumMoney -= drinkStock[chooseNumber].price;
                 return;
             }
+            print("その番号の飲料は無い");
 
         } catch (NumberFormatException e) {
             print("数字を入力して");
@@ -127,7 +123,7 @@ public class VendingMachine {
         buyDrink(sc);
     }
 
-    //おつり処理
+    //返金処理
     private void dischargeChange() {
         if ("r".equals(scanDrink)) {
             print(sumMoney + "円返金");
