@@ -15,6 +15,5 @@ public class Main {
         for (String key : map.keySet()) {
             System.out.println(key + ":" + map.get(key));
         }
-
     }
 }

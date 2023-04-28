@@ -48,5 +48,4 @@ public class MenuManager {
     public void showMenu(String category) {
         System.out.println(map.get(category));
     }
-
 }
