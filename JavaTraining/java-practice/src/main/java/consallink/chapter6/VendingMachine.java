@@ -27,22 +27,20 @@ public class VendingMachine {
         sc.close();
     }
 
-    //一般の表示
-    private void print(String str) {
-        System.out.print("\n" + str + "\n");
-    }
-
-    //商品の表示
-    private void printItem(Drink drink, int drinkNumber) {
-        System.out.println(drinkNumber + 1 + " : " + drink.name + " : " + drink.price + "円");
+    private String builder(String... strs) {
+        StringBuilder sb = new StringBuilder();
+        for (String s : strs) {
+            sb.append(s);
+        }
+        return sb.toString();
     }
 
     //一番安い飲料の値段を見つける
     private void findMinPrice() {
-        minPrice = drinkStock.get(0).price;
-        for (int i = 1; i < drinkStock.size(); i++) {
-            if (drinkStock.get(i).price < minPrice) {
-                minPrice = drinkStock.get(i).price;
+        this.minPrice = this.drinkStock.get(0).price;
+        for (int i = 1; i < this.drinkStock.size(); i++) {
+            if (this.drinkStock.get(i).price < this.minPrice) {
+                this.minPrice = this.drinkStock.get(i).price;
             }
         }
     }
@@ -50,23 +48,26 @@ public class VendingMachine {
     //お金の受け取りの処理
     private void receiptMoney(Scanner sc) {
         int scanMoney;
-        print("お金を入れて\n何円入れる？");
+        System.out.println("お金を入れて\n何円入れる？");
         try {
             scanMoney = Integer.parseInt(sc.nextLine());
-            sumMoney += scanMoney;
-            print("----------------------------------------------------------------");
-            print("投入金額:" + sumMoney + "円");
+            this.sumMoney += scanMoney;
+            System.out.println(builder("\n",
+                    "----------------------------------------------------------------"));
+            System.out.println(builder("\n", "投入金額:", String.valueOf(this.sumMoney), "円"));
         } catch (NumberFormatException e) {
-            print("----------------------------------------------------------------");
-            print("数字を入力して");
+            System.out.println(builder("\n",
+                    "----------------------------------------------------------------"));
+            System.out.println(builder("\n", "数字を入力して"));
             receiptMoney(sc);
             return;
         }
 
         while (true) {
-            print("まだお金入れる？ (y / n)");
+            System.out.println(builder("\n", "まだお金入れる？ (y / n)"));
             String scanFinish = sc.nextLine();
-            print("----------------------------------------------------------------");
+            System.out.println(builder("\n",
+                    "----------------------------------------------------------------"));
             if ("y".equals(scanFinish)) {
                 receiptMoney(sc);
                 return;
@@ -78,22 +79,25 @@ public class VendingMachine {
 
     //購入可能な飲料を表示
     private boolean display() {
-        if (sumMoney < minPrice) {
+        if (this.sumMoney < this.minPrice) {
             // 買えないときの表示処理
-            if (sumMoney <= 0) {
-                print("お金を入れてないから何も買えない");
+            if (this.sumMoney <= 0) {
+                System.out.println(builder("\n", "お金を入れてないから何も買えない"));
             } else {
-                print("買える飲料が無いので" + sumMoney + "円返金");
-                sumMoney = 0;
+                System.out.println(
+                        builder("\n", "買える飲料が無いので" + String.valueOf(this.sumMoney) + "円返金"));
+                this.sumMoney = 0;
             }
             return false;
         }
         //買えるときの表示処理
-        print("買える飲料");
-        for (int i = 0; i < drinkStock.size(); i++) {
-            if (drinkStock.get(i).price <= sumMoney) {
-                printItem(drinkStock.get(i), i);
-                drinkStock.get(i).isBuy = true;
+        System.out.println(builder("\n", "買える飲料"));
+        for (int i = 0; i < this.drinkStock.size(); i++) {
+            if (this.drinkStock.get(i).price <= this.sumMoney) {
+                System.out.println(
+                        builder("\n", String.valueOf(i + 1), ":", this.drinkStock.get(i).name,
+                                String.valueOf(this.drinkStock.get(i).price), "円"));
+                this.drinkStock.get(i).isBuy = true;
             }
         }
         return true;
@@ -101,24 +105,25 @@ public class VendingMachine {
 
     //購入処理
     private void buyDrink(Scanner sc) {
-        print("買う飲料の番号を入力するか「r」と入力（返金される）");
-        scanDrink = sc.next();
-        print("----------------------------------------------------------------");
-        if ("r".equals(scanDrink)) {
+        System.out.println(builder("\n", "買う飲料の番号を入力するか「r」と入力（返金される）"));
+        this.scanDrink = sc.next();
+        System.out.println(
+                builder("\n", "----------------------------------------------------------------"));
+        if ("r".equals(this.scanDrink)) {
             return;
         }
         try {
-            int chooseNumber = Integer.parseInt(scanDrink) - 1;
-            if (0 <= chooseNumber && chooseNumber < drinkStock.size()
-                    && drinkStock.get(chooseNumber).isBuy) {
-                print(drinkStock.get(chooseNumber).name + "を買った");
-                sumMoney -= drinkStock.get(chooseNumber).price;
+            int chooseNumber = Integer.parseInt(this.scanDrink) - 1;
+            if (0 <= chooseNumber && chooseNumber < this.drinkStock.size()
+                    && this.drinkStock.get(chooseNumber).isBuy) {
+                System.out.println(builder(this.drinkStock.get(chooseNumber).name, "を買った"));
+                this.sumMoney -= this.drinkStock.get(chooseNumber).price;
                 return;
             }
-            print("その番号の飲料は無い");
+            System.out.println(builder("\n", "その番号の飲料は無い"));
 
         } catch (NumberFormatException e) {
-            print("数字を入力して");
+            System.out.println(builder("\n", "数字を入力して"));
         }
         display();
         buyDrink(sc);
@@ -126,11 +131,11 @@ public class VendingMachine {
 
     //返金処理
     private void dischargeChange() {
-        if ("r".equals(scanDrink)) {
-            print(sumMoney + "円返金");
-        } else if (0 < sumMoney) {
-            print("おつりは" + sumMoney + "円");
+        if ("r".equals(this.scanDrink)) {
+            System.out.println(builder(String.valueOf(this.sumMoney), "円返金"));
+        } else if (0 < this.sumMoney) {
+            System.out.println(builder("おつりは", String.valueOf(this.sumMoney), "円"));
         }
-        sumMoney = 0;
+        this.sumMoney = 0;
     }
 }
