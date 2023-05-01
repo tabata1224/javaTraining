@@ -94,9 +94,8 @@ public class VendingMachine {
         System.out.println(builder("\n", "買える飲料"));
         for (int i = 0; i < this.drinkStock.size(); i++) {
             if (this.drinkStock.get(i).price <= this.sumMoney) {
-                System.out.println(
-                        builder("\n", String.valueOf(i + 1), ":", this.drinkStock.get(i).name,
-                                String.valueOf(this.drinkStock.get(i).price), "円"));
+                System.out.println(builder(String.valueOf(i + 1), ":", this.drinkStock.get(i).name,
+                        String.valueOf(this.drinkStock.get(i).price), "円"));
                 this.drinkStock.get(i).isBuy = true;
             }
         }
