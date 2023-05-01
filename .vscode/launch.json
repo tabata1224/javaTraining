@@ -1,0 +1,600 @@
+{
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "consallink.chapter6.fileRead.Main",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "consallink.chapter6.Main",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "consallink.comprehension_test.Main",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "consallink.ecfTech._09_collection.q004.Main",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "consallink.ecfTech._08_exception.q005.Main",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "consallink.ecfTech._09_collection.q004.Main",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "consallink.ecfTech._09_collection.q003.Main",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "consallink.ecfTech._09_collection.q002.Main",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "consallink.ecfTech._09_collection.q001.Main",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "arrayList",
+            "request": "launch",
+            "mainClass": "consallink.ecfTech._09_collection.q001.arrayList",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "ArrayList",
+            "request": "launch",
+            "mainClass": "consallink.ecfTech._09_collection.q001.ArrayList",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "consallink.ecfTech._08_exception.q005.Main",
+            "projectName": "java-practice"
+        },
+        {
+            "args": [
+                65,
+                1.7
+            ],
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "consallink.ecfTech._08_exception.q004.Main",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "DebugTest",
+            "request": "launch",
+            "mainClass": "consallink.chapter0.debug.DebugTest",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "ErrorTest",
+            "request": "launch",
+            "mainClass": "consallink.chapter0.error.ErrorTest",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Training2_3",
+            "request": "launch",
+            "mainClass": "consallink.chapter2.Training2_3",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Training2_4",
+            "request": "launch",
+            "mainClass": "consallink.chapter2.Training2_4",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Training2_5",
+            "request": "launch",
+            "mainClass": "consallink.chapter2.Training2_5",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Training2_6",
+            "request": "launch",
+            "mainClass": "consallink.chapter2.Training2_6",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Training2_7",
+            "request": "launch",
+            "mainClass": "consallink.chapter2.Training2_7",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Training3_3",
+            "request": "launch",
+            "mainClass": "consallink.chapter3.Training3_3",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Training3_4",
+            "request": "launch",
+            "mainClass": "consallink.chapter3.Training3_4",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Training3_5",
+            "request": "launch",
+            "mainClass": "consallink.chapter3.Training3_5",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Training3_6",
+            "request": "launch",
+            "mainClass": "consallink.chapter3.Training3_6",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Training3_7",
+            "request": "launch",
+            "mainClass": "consallink.chapter3.Training3_7",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Training3_8",
+            "request": "launch",
+            "mainClass": "consallink.chapter3.Training3_8",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Exam4_10_1",
+            "request": "launch",
+            "mainClass": "consallink.chapter4.Training4_10.section1.Exam4_10_1",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Exam4_10_2",
+            "request": "launch",
+            "mainClass": "consallink.chapter4.Training4_10.section2.Exam4_10_2",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Exam4_3_1",
+            "request": "launch",
+            "mainClass": "consallink.chapter4.Training4_3.section1.Exam4_3_1",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Exam4_3_2",
+            "request": "launch",
+            "mainClass": "consallink.chapter4.Training4_3.section2.Exam4_3_2",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Exam4_3_3",
+            "request": "launch",
+            "mainClass": "consallink.chapter4.Training4_3.section3.Exam4_3_3",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Exam4_3_4",
+            "request": "launch",
+            "mainClass": "consallink.chapter4.Training4_3.section4.Exam4_3_4",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Exam4_4_1",
+            "request": "launch",
+            "mainClass": "consallink.chapter4.Training4_4.section1.Exam4_4_1",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Exam4_4_2",
+            "request": "launch",
+            "mainClass": "consallink.chapter4.Training4_4.section2.Exam4_4_2",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Exam4_4_3",
+            "request": "launch",
+            "mainClass": "consallink.chapter4.Training4_4.section3.Exam4_4_3",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Exam4_5_1",
+            "request": "launch",
+            "mainClass": "consallink.chapter4.Training4_5.section1.Exam4_5_1",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Exam4_5_2",
+            "request": "launch",
+            "mainClass": "consallink.chapter4.Training4_5.section2.Exam4_5_2",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Exam4_5_3",
+            "request": "launch",
+            "mainClass": "consallink.chapter4.Training4_5.section3.Exam4_5_3",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Exam4_5_4",
+            "request": "launch",
+            "mainClass": "consallink.chapter4.Training4_5.section4.Exam4_5_4",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Exam4_6_1",
+            "request": "launch",
+            "mainClass": "consallink.chapter4.Training4_6.section1.Exam4_6_1",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Exam4_6_2",
+            "request": "launch",
+            "mainClass": "consallink.chapter4.Training4_6.section2.Exam4_6_2",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Exam4_6_3",
+            "request": "launch",
+            "mainClass": "consallink.chapter4.Training4_6.section3.Exam4_6_3",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Exam4_6_4",
+            "request": "launch",
+            "mainClass": "consallink.chapter4.Training4_6.section4.Exam4_6_4",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Exam4_7_1",
+            "request": "launch",
+            "mainClass": "consallink.chapter4.Training4_7.section1.Exam4_7_1",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Exam4_7_2",
+            "request": "launch",
+            "mainClass": "consallink.chapter4.Training4_7.section2.Exam4_7_2",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Exam4_8_1",
+            "request": "launch",
+            "mainClass": "consallink.chapter4.Training4_8.section1.Exam4_8_1",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Exam4_9_1",
+            "request": "launch",
+            "mainClass": "consallink.chapter4.Training4_9.section1.Exam4_9_1",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Exam4_9_2",
+            "request": "launch",
+            "mainClass": "consallink.chapter4.Training4_9.section2.Exam4_9_2",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Exam4_9_3",
+            "request": "launch",
+            "mainClass": "consallink.chapter4.Training4_9.section3.Exam4_9_3",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Exam4_9_4",
+            "request": "launch",
+            "mainClass": "consallink.chapter4.Training4_9.section4.Exam4_9_4",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Training5_1_1",
+            "request": "launch",
+            "mainClass": "consallink.chapter5.Training5_1_1",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Training5_2_1",
+            "request": "launch",
+            "mainClass": "consallink.chapter5.Training5_2_1",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Training5_3_1",
+            "request": "launch",
+            "mainClass": "consallink.chapter5.Training5_3_1",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "consallink.ecfTech._01_class.q001.Main",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Main(1)",
+            "request": "launch",
+            "mainClass": "consallink.ecfTech._01_class.q002.Main",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Main(2)",
+            "request": "launch",
+            "mainClass": "consallink.ecfTech._01_class.q003.Main",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Main(3)",
+            "request": "launch",
+            "mainClass": "consallink.ecfTech._01_class.q004.Main",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Main(4)",
+            "request": "launch",
+            "mainClass": "consallink.ecfTech._01_class.q005.Main",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Main(5)",
+            "request": "launch",
+            "mainClass": "consallink.ecfTech._02_constructor.q001.Main",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Main(6)",
+            "request": "launch",
+            "mainClass": "consallink.ecfTech._02_constructor.q002.Main",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Main(7)",
+            "request": "launch",
+            "mainClass": "consallink.ecfTech._02_constructor.q003.Main",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Main(8)",
+            "request": "launch",
+            "mainClass": "consallink.ecfTech._02_constructor.q004.Main",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Main(9)",
+            "request": "launch",
+            "mainClass": "consallink.ecfTech._03_has_a_1.q001.Main",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Main(10)",
+            "request": "launch",
+            "mainClass": "consallink.ecfTech._03_has_a_1.q002.Main",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Main(11)",
+            "request": "launch",
+            "mainClass": "consallink.ecfTech._03_has_a_1.q003.Main",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Main(12)",
+            "request": "launch",
+            "mainClass": "consallink.ecfTech._04_has_a_2.q001.Main",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Main(13)",
+            "request": "launch",
+            "mainClass": "consallink.ecfTech._04_has_a_2.q002.Main",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Main(14)",
+            "request": "launch",
+            "mainClass": "consallink.ecfTech._04_has_a_2.q003.Main",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Main(15)",
+            "request": "launch",
+            "mainClass": "consallink.ecfTech._05_inheritance_1.q001.Main",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Main(16)",
+            "request": "launch",
+            "mainClass": "consallink.ecfTech._05_inheritance_1.q002.Main",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Main(17)",
+            "request": "launch",
+            "mainClass": "consallink.ecfTech._05_inheritance_1.q003.Main",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Main(18)",
+            "request": "launch",
+            "mainClass": "consallink.ecfTech._05_inheritance_1.q004.Main",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Main(19)",
+            "request": "launch",
+            "mainClass": "consallink.ecfTech._06_inheritance_2.q001.Main",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Main(20)",
+            "request": "launch",
+            "mainClass": "consallink.ecfTech._06_inheritance_2.q002.Main",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Main(21)",
+            "request": "launch",
+            "mainClass": "consallink.ecfTech._06_inheritance_2.q003.Main",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Main(22)",
+            "request": "launch",
+            "mainClass": "consallink.ecfTech._07_abstraction_diversity.q001.Main",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Main(23)",
+            "request": "launch",
+            "mainClass": "consallink.ecfTech._07_abstraction_diversity.q002.Main",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Main(24)",
+            "request": "launch",
+            "mainClass": "consallink.ecfTech._07_abstraction_diversity.q003.Main",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Main(25)",
+            "request": "launch",
+            "mainClass": "consallink.ecfTech._07_abstraction_diversity.q004.Main",
+            "projectName": "java-practice"
+        },
+        {
+            "args": [
+                1,
+                "a"
+            ],
+            "type": "java",
+            "name": "Main(26)",
+            "request": "launch",
+            "mainClass": "consallink.ecfTech._08_exception.q001.Main",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Main(27)",
+            "request": "launch",
+            "mainClass": "consallink.ecfTech._08_exception.q002.Main",
+            "projectName": "java-practice"
+        },
+        {
+            "args": [
+                1,
+                0
+            ],
+            "type": "java",
+            "name": "Main(28)",
+            "request": "launch",
+            "mainClass": "consallink.ecfTech._08_exception.q003.Main",
+            "projectName": "java-practice"
+        }
+    ]
+}
