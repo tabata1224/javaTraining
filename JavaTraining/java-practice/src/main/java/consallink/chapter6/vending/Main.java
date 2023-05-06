@@ -1,4 +1,4 @@
-package consallink.chapter6;
+package consallink.chapter6.vending;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -14,7 +14,7 @@ public class Main {
 
         try {
             File file = new File(
-                    "/workspaces/Java-training/JavaTraining/java-practice/src/main/java/consallink/chapter6/drink.txt");
+                    "/workspaces/Java-training/JavaTraining/java-practice/src/main/java/consallink/chapter6/vending/drink.txt");
             BufferedReader br = new BufferedReader(new FileReader(file));
             String str = null;
             while ((str = br.readLine()) != null) {

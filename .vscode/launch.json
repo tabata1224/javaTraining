@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "consallink.chapter6.vending.Main",
+            "projectName": "java-practice"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "consallink.chapter6.fileRead.Main",
             "projectName": "java-practice"
         },

@@ -1,4 +1,4 @@
-package consallink.chapter6;
+package consallink.chapter6.vending;
 
 public class Drink {
 

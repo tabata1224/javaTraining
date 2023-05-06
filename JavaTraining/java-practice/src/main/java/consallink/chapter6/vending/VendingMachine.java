@@ -1,4 +1,4 @@
-package consallink.chapter6;
+package consallink.chapter6.vending;
 
 import java.util.List;
 import java.util.Scanner;
