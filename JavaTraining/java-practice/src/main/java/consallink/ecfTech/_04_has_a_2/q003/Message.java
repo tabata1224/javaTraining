@@ -10,7 +10,7 @@ public class Message {
     }
 
     public void setReaction(Reaction reaction) {
-        reactions[count] = reaction;
+        this.reactions[this.count] = reaction;
         this.count++;
     }
 
@@ -18,7 +18,7 @@ public class Message {
         System.out.println(sentence);
         System.out.println("----------");
         for (int i = 0; i < 3; i++) {
-            reactions[i].display();
+            this.reactions[i].display();
             System.out.print(" ");
         }
         System.out.println();

@@ -4,12 +4,12 @@ public class MagicFighter extends Fighter {
     int mp;
 
     MagicFighter() {
-        name = "魔法戦士";
-        mp = 10;
+        this.name = "魔法戦士";
+        this.mp = 10;
     }
 
     public void attack() {
-        System.out.println(name + "の魔法攻撃!");
-        System.out.println("敵に" + (atk + mp) + "の魔法攻撃!");
+        System.out.println(this.name + "の魔法攻撃!");
+        System.out.println("敵に" + (this.atk + this.mp) + "の魔法攻撃!");
     }
 }

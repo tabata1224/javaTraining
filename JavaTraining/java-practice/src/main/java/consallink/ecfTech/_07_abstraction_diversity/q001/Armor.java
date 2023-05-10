@@ -6,7 +6,7 @@ public class Armor extends Item {
     }
 
     public void use() {
-        System.out.println(name + "を身に着けた");
-        System.out.println("守備力が" + value + "上がった");
+        System.out.println(this.name + "を身に着けた");
+        System.out.println("守備力が" + this.value + "上がった");
     }
 }

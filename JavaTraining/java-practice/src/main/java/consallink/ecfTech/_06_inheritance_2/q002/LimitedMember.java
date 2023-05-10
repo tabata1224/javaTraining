@@ -15,13 +15,13 @@ public class LimitedMember extends Member {
     }
 
     public boolean isUsable(int hour) {
-        if (startTime <= endTime) {
-            if (startTime <= hour && hour <= endTime) {
+        if (this.startTime <= this.endTime) {
+            if (this.startTime <= hour && hour <= this.endTime) {
                 return true;
             }
             return false;
         } else {
-            if ((startTime <= hour && hour <= 23) || (0 <= hour && hour <= endTime)) {
+            if ((this.startTime <= hour && hour <= 23) || (0 <= hour && hour <= this.endTime)) {
                 return true;
             }
             return false;

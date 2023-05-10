@@ -12,11 +12,11 @@ public class SetMenu {
     }
 
     public void display() {
-        System.out.println(name + "セット");
+        System.out.println(this.name + "セット");
         System.out.println("---");
         sandwitch.display();
         drink.display();
         System.out.println("---");
-        System.out.println("セット価格：" + (int) (0.8 * (sandwitch.price + drink.price)) + "円");
+        System.out.println("セット価格：" + (int) (0.8 * (this.sandwitch.price + this.drink.price)) + "円");
     }
 }

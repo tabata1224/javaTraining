@@ -12,6 +12,6 @@ public class Quiz {
     }
 
     public void displayMain() {
-        System.out.println(main);
+        System.out.println(this.main);
     }
 }

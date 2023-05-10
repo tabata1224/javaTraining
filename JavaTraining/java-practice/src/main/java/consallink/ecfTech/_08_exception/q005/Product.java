@@ -10,6 +10,6 @@ public class Product {
     }
 
     public String toString() {
-        return name + ":" + price + "円";
+        return this.name + ":" + this.price + "円";
     }
 }

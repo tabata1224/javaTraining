@@ -5,7 +5,6 @@ public class Student {
     int score;
 
     public void showScore() {
-        System.out.println(name + "さんの得点は" + score + "点です。");
+        System.out.println(this.name + "さんの得点は" + this.score + "点です。");
     }
 }
-

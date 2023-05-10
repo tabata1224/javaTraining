@@ -15,8 +15,8 @@ public class MultipleChoiceQuiz extends Quiz {
 
     public void displayMain() {
         super.displayMain();
-        for (int i = 1; i <= answers.length; i++) {
-            System.out.println(i + ":" + answers[i - 1]);
+        for (int i = 1; i <= this.answers.length; i++) {
+            System.out.println(i + ":" + this.answers[i - 1]);
         }
     }
 }

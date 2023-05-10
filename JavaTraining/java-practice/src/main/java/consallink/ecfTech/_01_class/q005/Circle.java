@@ -1,7 +1,7 @@
 package consallink.ecfTech._01_class.q005;
 
 public class Circle {
-    double PI = 3.14;
+    final double PI = 3.14;
     int hankei;
 
     public void setHankei(int hankei) {
@@ -9,10 +9,10 @@ public class Circle {
     }
 
     public double getEnsyu() {
-        return 2 * hankei * PI;
+        return 2 * this.hankei * this.PI;
     }
 
     public double getMenseki() {
-        return hankei * hankei * PI;
+        return this.hankei * this.hankei * this.PI;
     }
 }

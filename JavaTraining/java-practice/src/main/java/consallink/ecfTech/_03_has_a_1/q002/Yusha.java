@@ -13,12 +13,12 @@ public class Yusha {
     }
 
     public void displayStatus() {
-        System.out.println("勇者：" + name);
-        System.out.println("HP：" + hp);
-        if (buki == null) {
-            System.out.println("攻撃力:" + atk);
+        System.out.println("勇者：" + this.name);
+        System.out.println("HP：" + this.hp);
+        if (this.buki == null) {
+            System.out.println("攻撃力:" + this.atk);
         } else {
-            System.out.println("攻撃力:" + atk + "　+" + buki.atk);
+            System.out.println("攻撃力:" + this.atk + "　+" + this.buki.atk);
         }
     }
 }

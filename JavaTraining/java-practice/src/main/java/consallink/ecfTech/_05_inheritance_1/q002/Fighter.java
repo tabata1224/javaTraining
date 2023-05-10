@@ -10,7 +10,7 @@ public class Fighter {
     }
 
     public void attack() {
-        System.out.println(name + "の攻撃!");
-        System.out.println("敵に" + atk + "のダメージ!");
+        System.out.println(this.name + "の攻撃!");
+        System.out.println("敵に" + this.atk + "のダメージ!");
     }
 }

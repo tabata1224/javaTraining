@@ -6,7 +6,7 @@ public class Buki extends Item {
     }
 
     public void use() {
-        System.out.println(name + "でこうげき!!");
-        System.out.println("敵に" + value + "のダメージ!");
+        System.out.println(this.name + "でこうげき!!");
+        System.out.println("敵に" + this.value + "のダメージ!");
     }
 }

@@ -13,12 +13,11 @@ public class Cooler {
     }
 
     public void adjust() {
-        if (goalTemp < nowTemp) {
+        if (this.goalTemp < this.nowTemp) {
             System.out.println("室温を1度下げました。");
             nowTemp--;
-        }
-        else{
+        } else {
             System.out.println("適温です。");
-        } 
+        }
     }
 }

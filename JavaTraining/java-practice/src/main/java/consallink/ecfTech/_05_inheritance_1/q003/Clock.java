@@ -8,6 +8,6 @@ public class Clock {
     }
 
     public void showTime() {
-        System.out.println(time + "です。");
+        System.out.println(this.time + "です。");
     }
 }

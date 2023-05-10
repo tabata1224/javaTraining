@@ -15,6 +15,6 @@ public class Shop {
     }
 
     public void display() {
-        System.out.println(name + ":売上高" + sales + "円");
+        System.out.println(this.name + ":売上高" + this.sales + "円");
     }
 }

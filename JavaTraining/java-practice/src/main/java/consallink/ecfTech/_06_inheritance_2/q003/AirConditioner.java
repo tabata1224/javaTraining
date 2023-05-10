@@ -6,12 +6,12 @@ public class AirConditioner extends Cooler {
     }
 
     public void adjust() {
-        if (goalTemp < nowTemp) {
+        if (this.goalTemp < this.nowTemp) {
             System.out.println("室温を1度下げました。");
             nowTemp--;
-        } else if (nowTemp < goalTemp) {
+        } else if (this.nowTemp < this.goalTemp) {
             System.out.println("室温を1度上げました。");
-            nowTemp++;
+            this.nowTemp++;
         } else {
             System.out.println("適温です。");
         }

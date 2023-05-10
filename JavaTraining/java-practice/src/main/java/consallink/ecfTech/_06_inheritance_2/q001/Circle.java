@@ -9,6 +9,6 @@ public class Circle {
     }
 
     public double getArea() {
-        return hankei * hankei * PI;
+        return this.hankei * this.hankei * PI;
     }
 }

@@ -10,6 +10,6 @@ public class Item {
     }
 
     public void display() {
-        System.out.println(name + ":" + price + "円");
+        System.out.println(this.name + ":" + this.price + "円");
     }
 }

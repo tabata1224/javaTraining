@@ -8,6 +8,6 @@ public class PercentageCoupon implements Coupon {
     }
 
     public int discount(int amount) {
-        return (int) (rate * amount);
+        return (int) (this.rate * amount);
     }
 }

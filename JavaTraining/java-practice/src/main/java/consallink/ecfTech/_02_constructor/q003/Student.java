@@ -18,6 +18,6 @@ public class Student {
     }
 
     public void show() {
-        System.out.println(name + ":" + koku + "," + su + "," + ei);
+        System.out.println(this.name + ":" + this.koku + "," + this.su + "," + this.ei);
     }
 }
