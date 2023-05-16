@@ -1,9 +1,9 @@
 package consallink.ecfTech._07_abstraction_diversity.q003;
 
 public class PercentageCoupon implements Coupon {
-    double rate;
+    private double rate;
 
-    PercentageCoupon(double rate) {
+    public PercentageCoupon(double rate) {
         this.rate = rate;
     }
 

@@ -1,14 +1,14 @@
 package consallink.ecfTech._07_abstraction_diversity.q004;
 
 public class MultipleChoiceQuiz extends Quiz {
-    String main;
-    String[] answers;
+    private String[] answers;
 
-    MultipleChoiceQuiz(String main, String[] answers) {
+    public MultipleChoiceQuiz(String main, String[] answers) {
         super(main);
         this.answers = answers;
     }
 
+    @Override
     public void displayHeader() {
         System.out.println("「次の問いについて、正しいものを４つの中から選びなさい」");
     }

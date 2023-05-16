@@ -4,7 +4,7 @@ public class Cooler {
     public int nowTemp;
     public int goalTemp;
 
-    Cooler(int nowTemp) {
+    public Cooler(int nowTemp) {
         this.nowTemp = nowTemp;
     }
 
@@ -15,7 +15,7 @@ public class Cooler {
     public void adjust() {
         if (this.goalTemp < this.nowTemp) {
             System.out.println("室温を1度下げました。");
-            nowTemp--;
+            this.nowTemp--;
         } else {
             System.out.println("適温です。");
         }

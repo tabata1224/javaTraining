@@ -1,10 +1,10 @@
 package consallink.ecfTech._08_exception.q005;
 
 public class Product {
-    String name;
-    int price;
+    public String name;
+    private int price;
 
-    Product(String name, int price) {
+    public Product(String name, int price) {
         this.name = name;
         this.price = price;
     }

@@ -3,7 +3,7 @@ package consallink.ecfTech._07_abstraction_diversity.q004;
 public class Quiz {
     private String main;
 
-    Quiz(String main) {
+    public Quiz(String main) {
         this.main = main;
     }
 

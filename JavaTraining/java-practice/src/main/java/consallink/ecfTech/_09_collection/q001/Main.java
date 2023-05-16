@@ -10,8 +10,8 @@ public class Main {
         fruits.add("バナナ");
         fruits.add("ぶどう");
 
-        for (int i = 0; i < fruits.size(); i++) {
-            System.out.println(fruits.get(i));
+        for (String name : fruits) {
+            System.out.println(name);
         }
     }
 }

@@ -1,14 +1,14 @@
 package consallink.ecfTech._07_abstraction_diversity.q004;
 
 public class BlankQuiz extends Quiz {
-    int blankCount;
+    private int blankCount;
 
-    BlankQuiz(String main, int blankCount) {
+    public BlankQuiz(String main, int blankCount) {
         super(main);
         this.blankCount = blankCount;
     }
 
-    public void displayHeade() {
+    public void displayHeader() {
         System.out.println("「次の文の空欄を埋めなさい」");
     }
 

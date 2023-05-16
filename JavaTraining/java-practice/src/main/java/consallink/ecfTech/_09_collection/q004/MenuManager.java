@@ -7,7 +7,7 @@ public class MenuManager {
     Map<String, ArrayList<String>> map = new HashMap<>();
 
     //コンストラクタ
-    MenuManager() {
+    public MenuManager() {
         //サンドイッチメニューの登録
         ArrayList<String> list = new ArrayList<>();
         list.add("ハンバーガー");

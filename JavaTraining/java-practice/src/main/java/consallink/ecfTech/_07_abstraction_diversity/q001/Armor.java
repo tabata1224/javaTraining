@@ -1,7 +1,7 @@
 package consallink.ecfTech._07_abstraction_diversity.q001;
 
 public class Armor extends Item {
-    Armor(String name, int value) {
+    public Armor(String name, int value) {
         super(name, value);
     }
 

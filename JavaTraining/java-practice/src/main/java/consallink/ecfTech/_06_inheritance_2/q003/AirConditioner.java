@@ -1,10 +1,12 @@
 package consallink.ecfTech._06_inheritance_2.q003;
 
 public class AirConditioner extends Cooler {
-    AirConditioner(int nowTemp) {
+
+    public AirConditioner(int nowTemp) {
         super(nowTemp);
     }
 
+    @Override
     public void adjust() {
         if (this.goalTemp < this.nowTemp) {
             System.out.println("室温を1度下げました。");
