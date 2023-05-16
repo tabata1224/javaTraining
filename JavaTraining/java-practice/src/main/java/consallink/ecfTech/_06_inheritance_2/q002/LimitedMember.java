@@ -1,10 +1,10 @@
 package consallink.ecfTech._06_inheritance_2.q002;
 
 public class LimitedMember extends Member {
-    int startTime;
-    int endTime;
+    private int startTime;
+    private int endTime;
 
-    LimitedMember(String name, int startTime, int endTime) {
+    public LimitedMember(String name, int startTime, int endTime) {
         super(name);
         this.startTime = startTime;
         this.endTime = endTime;

@@ -17,7 +17,7 @@ public class Message {
     public void display() {
         System.out.println(sentence);
         System.out.println("----------");
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < this.count; i++) {
             this.reactions[i].display();
             System.out.print(" ");
         }

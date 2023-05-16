@@ -1,10 +1,10 @@
 package consallink.ecfTech._06_inheritance_2.q002;
 
 public class Member {
-    String name;
-    int MonthlyFee;
+    private String name;
+    private int MonthlyFee;
 
-    Member(String name) {
+    public Member(String name) {
         this.name = name;
         this.MonthlyFee = 8000;
     }

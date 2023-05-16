@@ -1,10 +1,10 @@
 package consallink.ecfTech._06_inheritance_2.q001;
 
 public class Circle {
-    static public final double PI = 3.14;
-    int hankei;
+    public static final double PI = 3.14;
+    private int hankei;
 
-    Circle(int hankei) {
+    public Circle(int hankei) {
         this.hankei = hankei;
     }
 
